@@ -67,7 +67,7 @@ def data_preparation():
 def data_country_selection():
     companies = pd.DataFrame()
     companies = data_preparation()
-    df = companies.query( "Country in ('India', 'United States', 'China', 'Ukraine','Virgin Islands, British', 'Bangladesh','Cayman Islands')")
+    df = companies.query( "Country in ('Venezuela','Argentina','France','Mauritius','India', 'United States', 'China', 'Ukraine','Virgin Islands, British', 'Bangladesh','Cayman Islands')")
     df.to_csv('companies_final_draft.csv')
 
 def data_split_countrywise():
@@ -115,8 +115,11 @@ def stock_price_updation():
     files = os.listdir("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country") 
     for name in files:
         print(name)
-        companies = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\" + name)
-        companies_stock = data_update_stock_price(companies)
-        companies_stock.to_csv("kaggle\\country\\{0}_stock.xlsx".format(name.replace(".xlsx","")))
+        if name != 'stock':
+            companies = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\" + name)
+            companies_stock = data_update_stock_price(companies)
+            companies_stock.to_csv("kaggle\\country\\{0}_stock.csv".format(name.replace(".csv","")))
 
+#data_country_selection()
+#data_split_countrywise()
 stock_price_updation()
