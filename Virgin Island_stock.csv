@@ -1,0 +1,556 @@
+,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,Company,Country,Tickers,Fossil Free Funds: Coal screen,Fossil Free Funds: Oil / gas screen,Fossil Free Funds: Macroclimate30 coal-fired utility screen,Fossil Free Funds: Fossil-fired utility screen,Fossil Free Funds: Clean200 screen,Deforestation Free Funds: Producer screen,Deforestation Free Funds: Financier screen,Deforestation Free Funds: Consumer brand screen,Deforestation Free Funds: Palm oil producer screen,Deforestation Free Funds: Palm oil consumer brand screen,Deforestation Free Funds: Paper / pulp producer screen,Deforestation Free Funds: Paper / pulp consumer brand screen,Deforestation Free Funds: Rubber producer screen,Deforestation Free Funds: Rubber consumer brand screen,Deforestation Free Funds: Timber producer screen,Deforestation Free Funds: Timber consumer brand screen,Deforestation Free Funds: Cattle producer screen,Deforestation Free Funds: Cattle consumer brand screen,Deforestation Free Funds: Soy producer screen,Deforestation Free Funds: Soy consumer brand screen,Weapons Free Funds: Major military contractor screen,Weapons Free Funds: Cluster munitions / landmines screen,Weapons Free Funds: Nuclear weapons screen,Gun Free Funds: Gun manufacturers screen,Gun Free Funds: Gun retailers screen,Tobacco Free Funds: Tobacco producers screen,Tobacco Free Funds: Tobacco-promoting entertainment companies screen,Gender Equality Funds: Has Equileap gender equality score,CreatedDate,Prison Free Funds: Prison industry screen,Prison Free Funds: Border industry screen,Prison Free Funds: Higher risk screen,Prison Free Funds: Private prison operators screen,Fossil Free Funds: Fossil fuel finance screen,Fossil Free Funds: Fossil fuel finance risk score,Fossil Free Funds: Fossil fuel insurance screen,Fossil Free Funds: Fossil fuel insurance risk score,Ticker,Stock_Price
+0,224,490,490,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+1,420,961,961,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,4/14/2020,N,N,N,N,N,0.0,N,0.0, CPRI,14.479999542236328
+2,784,1721,1721,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+3,864,1932,1932,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+4,925,2053,2053,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.11999999731779099
+5,1411,3175,3175,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE, KPLLF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0, KPLLF,0.0
+6,1524,3478,3478,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,4/14/2020,N,N,N,N,N,0.0,N,0.0, MLRYY,16.649999618530273
+7,1664,3806,3806,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,NESR,5.260000228881836
+8,1684,3847,3847,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+9,1796,4143,4143,Orca Exploration Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,3.640000104904175
+10,1869,4322,4322,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+11,1870,4323,4323,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0, PTVRF,0.2858999967575073
+12,2399,5706,5706,Thalassa Holdings Ltd,"Virgin Islands, British","THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+13,2515,5979,5979,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+14,2700,6345,6345,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+15,2988,6948,486,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+16,3184,7417,955,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,5/19/2020,N,N,N,N,N,0.0,N,0.0, CPRI,14.5
+17,3546,8173,1711,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+18,3626,8383,1921,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+19,3687,8503,2041,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.12099999934434891
+20,4173,9624,3162,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+21,4287,9928,3466,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,5/19/2020,N,N,N,N,N,0.0,N,0.0, MLRYY,17.950000762939453
+22,4426,10255,3793,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,NESR,5.03000020980835
+23,4446,10295,3833,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+24,4558,10590,4128,Orca Exploration Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,3.740000009536743
+25,4631,10769,4307,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+26,4632,10770,4308,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0, PTVRF,0.2858999967575073
+27,5158,12149,5687,Thalassa Holdings Ltd,"Virgin Islands, British","THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+28,5273,12421,5959,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+29,5454,12784,6322,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+30,5741,13386,485,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+31,5936,13854,953,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,6/10/2020,N,N,N,N,N,0.0,N,0.0, CPRI,21.049999237060547
+32,6295,14608,1707,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+33,6375,14819,1918,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+34,6435,14937,2036,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.10999999940395355
+35,6919,16055,3154,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+36,7033,16359,3458,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,6/10/2020,N,N,N,N,N,0.0,N,0.0, MLRYY,18.75
+37,7173,16685,3784,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,NESR,6.849999904632568
+38,7193,16725,3824,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+39,7305,17020,4119,Orca Exploration Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,4.150000095367432
+40,7378,17199,4298,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+41,7379,17200,4299,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0, PTVRF,0.30000001192092896
+42,7903,18573,5672,Thalassa Holdings Ltd,"Virgin Islands, British","THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+43,8019,18845,5944,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+44,8198,19206,6305,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+45,8482,19806,482,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+46,8679,20273,949,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,7/16/2020,N,N,N,N,N,0.0,N,0.0, CPRI,17.389999389648438
+47,9037,21026,1702,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+48,9117,21236,1912,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+49,9175,21352,2028,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.10490000247955322
+50,9659,22470,3146,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+51,9773,22773,3449,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,7/16/2020,N,N,N,N,N,0.0,N,0.0, MLRYY,25.600000381469727
+52,9913,23097,3773,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,NESR,6.59499979019165
+53,9933,23136,3812,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+54,10047,23434,4110,Orca Exploration Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,3.759999990463257
+55,10120,23613,4289,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+56,10121,23614,4290,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0, PTVRF,0.23826999962329865
+57,10642,24984,5660,Thalassa Holdings Ltd,"Virgin Islands, British","THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+58,10759,25257,5933,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+59,10938,25618,6294,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+60,11221,26217,481,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+61,11418,26683,947,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,8/11/2020,N,N,N,N,N,0.0,N,0.0, CPRI,17.979999542236328
+62,11776,27437,1701,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+63,11853,27644,1908,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+64,11911,27760,2024,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.10999999940395355
+65,12393,28876,3140,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+66,12506,29178,3442,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,8/11/2020,N,N,N,N,N,0.0,N,0.0, MLRYY,27.299999237060547
+67,12646,29503,3767,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,NESR,8.350000381469727
+68,12666,29543,3807,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+69,12781,29843,4107,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,4.119999885559082
+70,12854,30022,4286,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+71,12855,30023,4287,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0, PTVRF,0.2630999982357025
+72,13377,31396,5660,Thalassa Holdings Ltd,"Virgin Islands, British","THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+73,13497,31670,5934,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+74,13677,32030,6294,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+75,13960,32630,481,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+76,14157,33094,945,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,9/13/2020,N,N,N,N,N,0.0,N,0.0, MKO,0.0
+77,14516,33849,1700,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+78,14592,34055,1906,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+79,14650,34171,2022,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.0
+80,15132,35287,3138,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+81,15243,35586,3437,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/13/2020,N,N,N,N,N,0.0,N,0.0, RL9A,0.0
+82,15383,35912,3763,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,NESR,0.0
+83,15403,35952,3803,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+84,15519,36253,4104,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,0.0
+85,15592,36432,4283,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+86,15593,36433,4284,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0, VRY,0.0
+87,16114,37804,5655,Thalassa Holdings Ltd,"Virgin Islands, British","THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+88,16234,38077,5928,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+89,16415,38437,6288,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+90,16676,39032,476,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+91,16855,39498,942,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,9/28/2020,N,N,N,N,N,0.0,N,0.0, CPRI,20.489999771118164
+92,17184,40220,1664,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+93,17250,40419,1863,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+94,17303,40539,1983,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.10999999940395355
+95,17742,41620,3064,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+96,17843,41904,3348,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/28/2020,N,N,N,N,N,0.0,N,0.0, MLRYY,28.100000381469727
+97,17970,42219,3663,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,NESR,7.050000190734863
+98,17988,42257,3701,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+99,18040,42414,3858,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/28/2020,N,N,N,N,N,0.0,N,0.0, NOMD,25.239999771118164
+100,18100,42579,4023,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,4.349999904632568
+101,18168,42758,4202,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+102,18169,42759,4203,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0, PTVRF,0.27000001072883606
+103,18661,44123,5567,Thalassa Holdings Ltd,"Virgin Islands, British","THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+104,18769,44392,5836,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+105,18935,44754,6198,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+106,19194,45348,475,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+107,19372,45812,939,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,10/18/2020,N,N,N,N,N,0.0,N,0.0, MKO,0.0
+108,19699,46530,1657,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+109,19765,46728,1855,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+110,19818,46848,1975,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.0
+111,20257,47927,3054,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+112,20359,48213,3340,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/18/2020,N,N,N,N,N,0.0,N,0.0, RL9A,0.0
+113,20486,48527,3654,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,NESR,0.0
+114,20504,48565,3692,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+115,20556,48723,3850,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/18/2020,N,N,N,N,N,0.0,N,0.0, NOMD,0.0
+116,20615,48888,4015,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,0.0
+117,20683,49067,4194,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+118,20684,49068,4195,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0, VRY,0.0
+119,21173,50429,5556,Thalassa Holdings Ltd,"Virgin Islands, British","THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+120,21281,50697,5824,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+121,21448,51057,6184,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+122,21704,51648,472,Attis Oil & Gas Ltd,"Virgin Islands, British","AOGL, MYN.GB",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0, MYN.GB,0.0
+123,21879,52107,931,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,11/11/2020,N,N,N,N,N,0.0,N,0.0, CPRI,28.520000457763672
+124,22202,52819,1643,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+125,22265,53014,1838,Epic Gas Ltd,"Virgin Islands, British",EPIC-ME,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,EPIC-ME,0.0
+126,22317,53133,1957,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0, FSHRF,0.10000000149011612
+127,22754,54211,3035,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+128,22857,54497,3321,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,11/11/2020,N,N,N,N,N,0.0,N,0.0, MLRYY,28.649999618530273
+129,22983,54808,3632,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,NESR,7.400000095367432
+130,23001,54846,3670,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+131,23052,55003,3827,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,11/11/2020,N,N,N,N,N,0.0,N,0.0, NOMD,23.790000915527344
+132,23111,55167,3991,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0, ORXGF,4.590000152587891
+133,23178,55343,4167,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,2178,0.0
+134,23179,55344,4168,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0, PTVRF,0.30000001192092896
+135,23662,56697,5521,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+136,23769,56964,5788,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+137,23935,57321,6145,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+138,24284,58162,722,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,1/21/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+139,24375,58399,959,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,1/21/2021,N,N,N,N,N,0.0,N,0.0, CPRI,45.36000061035156
+140,24695,59123,1683,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+141,24759,59325,1885,Epic Gas Ltd,"Virgin Islands, British",EPIC,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,EPIC,0.0
+142,24812,59451,2011,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.15000000596046448
+143,25251,60555,3115,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+144,25354,60850,3410,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,1/21/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,26.75
+145,25479,61171,3731,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,NESR,10.680000305175781
+146,25497,61209,3769,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+147,25549,61373,3933,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,1/21/2021,N,N,N,N,N,0.0,N,0.0, NOMD,25.90999984741211
+148,25609,61544,4104,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.739999771118164
+149,25677,61726,4286,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+150,25678,61727,4287,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,0.27649998664855957
+151,26162,63108,5668,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+152,26270,63380,5940,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+153,26438,63743,6303,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+154,26789,64587,723,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,3/3/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+155,26878,64820,956,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,3/3/2021,N,N,N,N,N,0.0,N,0.0, CPRI,49.060001373291016
+156,27194,65537,1673,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+157,27258,65738,1874,Epic Gas Ltd,"Virgin Islands, British",EPIC,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,EPIC,0.0
+158,27311,65863,1999,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.17000000178813934
+159,27747,66958,3094,Kina Petroleum Corp,"Virgin Islands, British","KINPF, KPE",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0, KPE,0.0
+160,27850,67253,3389,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,3/3/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,27.0
+161,27974,67572,3708,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,NESR,13.539999961853027
+162,27990,67609,3745,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+163,28042,67772,3908,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,3/3/2021,N,N,N,N,N,0.0,N,0.0, NOMD,24.239999771118164
+164,28103,67944,4080,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.389999866485596
+165,28170,68126,4262,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+166,28171,68127,4263,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,0.2800000011920929
+167,28652,69505,5641,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+168,28758,69774,5910,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+169,28926,70137,6273,Xcite Energy Ltd,"Virgin Islands, British",XEL.GB,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,XEL.GB,0.0
+170,29272,70975,720,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,4/1/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+171,29361,71208,953,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,4/1/2021,N,N,N,N,N,0.0,N,0.0, CPRI,51.5
+172,29677,71925,1670,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+173,29740,72125,1870,Epic Gas Ltd,"Virgin Islands, British",EPIC,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,EPIC,0.0
+174,29794,72251,1996,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.10000000149011612
+175,30229,73343,3088,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+176,30331,73637,3382,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,4/1/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,22.5
+177,30455,73957,3702,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,NESR,12.765000343322754
+178,30471,73994,3739,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+179,30522,74154,3899,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,4/1/2021,N,N,N,N,N,0.0,N,0.0, NOMD,28.020000457763672
+180,30583,74325,4070,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.340000152587891
+181,30649,74505,4250,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+182,30650,74506,4251,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,0.2800000011920929
+183,31130,75884,5629,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL, THALA",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0, THALA,0.0
+184,31237,76153,5898,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+185,31752,77349,717,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,5/3/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+186,31841,77582,950,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,5/3/2021,N,N,N,N,N,0.0,N,0.0, CPRI,58.04999923706055
+187,31935,77761,1129,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,CHNR,1.5399999618530273
+188,32168,78307,1675,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+189,32284,78609,1977,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.125
+190,32722,79725,3093,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+191,32822,80010,3378,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,5/3/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,23.200000762939453
+192,32944,80338,3706,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,NESR,12.979999542236328
+193,32960,80374,3742,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+194,33013,80534,3902,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,5/3/2021,N,N,N,N,N,0.0,N,0.0, NOMD,29.517000198364258
+195,33076,80707,4075,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.429999828338623
+196,33146,80891,4259,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+197,33147,80892,4260,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,0.2800000011920929
+198,33623,82264,5632,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+199,33731,82539,5907,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+200,34259,83739,712,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,7/15/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+201,34347,83969,942,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,7/15/2021,N,N,N,N,N,0.0,N,0.0, CPRI,51.439998626708984
+202,34441,84149,1122,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,CHNR,1.690000057220459
+203,34674,84697,1670,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+204,34787,84996,1969,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.10999999940395355
+205,35223,86097,3070,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+206,35323,86379,3352,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,7/15/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,22.049999237060547
+207,35445,86703,3676,National Energy Services Reunited Corp,"Virgin Islands, British",NESR,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,NESR,13.600000381469727
+208,35461,86740,3713,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+209,35512,86898,3871,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,7/15/2021,N,N,N,N,N,0.0,N,0.0, NOMD,27.670000076293945
+210,35575,87071,4044,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.639999866485596
+211,35644,87254,4227,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+212,35645,87255,4228,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,1.74590003490448
+213,36117,88624,5597,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+214,36223,88895,5868,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+215,36750,90088,711,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,8/9/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+216,36838,90320,943,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,8/9/2021,N,N,N,N,N,0.0,N,0.0, CPRI,58.869998931884766
+217,36932,90499,1122,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,CHNR,1.4299999475479126
+218,37165,91045,1668,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+219,37276,91341,1964,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.07000000029802322
+220,37710,92441,3064,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+221,37811,92725,3348,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,8/9/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,21.0
+222,37931,93047,3670,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,NESR,11.34000015258789
+223,37946,93083,3706,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+224,37998,93243,3866,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,8/9/2021,N,N,N,N,N,0.0,N,0.0, NOMD,27.459999084472656
+225,38061,93418,4041,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.550000190734863
+226,38130,93601,4224,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+227,38131,93602,4225,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,1.7486000061035156
+228,38602,94970,5593,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+229,38707,95241,5864,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+230,39235,96436,712,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/2/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+231,39322,96667,943,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,9/2/2021,N,N,N,N,N,0.0,N,0.0, CPRI,57.63999938964844
+232,39416,96846,1122,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,CHNR,1.2899999618530273
+233,39648,97392,1668,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+234,39760,97688,1964,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.0843999981880188
+235,40192,98785,3061,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+236,40292,99066,3342,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/2/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,21.299999237060547
+237,40412,99388,3664,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,NESR,11.699999809265137
+238,40427,99424,3700,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+239,40479,99583,3859,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/2/2021,N,N,N,N,N,0.0,N,0.0, NOMD,27.204999923706055
+240,40542,99757,4033,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.110000133514404
+241,40611,99943,4219,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+242,40612,99944,4220,Petro-Victory Energy Corp,"Virgin Islands, British","79V, 79V1, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,1.4558000564575195
+243,41081,101307,5583,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+244,41187,101579,5855,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+245,41713,102781,720,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/9/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+246,41800,103013,952,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,9/9/2021,N,N,N,N,N,0.0,N,0.0, CPRI,57.220001220703125
+247,41893,103191,1130,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,CHNR,1.2699999809265137
+248,42125,103741,1680,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+249,42240,104040,1979,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.0843999981880188
+250,42672,105147,3086,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+251,42772,105431,3370,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/9/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,21.100000381469727
+252,42891,105755,3694,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,NESR,11.539999961853027
+253,42906,105791,3730,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0, NCCL.GB,0.0
+254,42957,105955,3894,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/9/2021,N,N,N,N,N,0.0,N,0.0, NOMD,26.979999542236328
+255,43020,106130,4069,Orca Energy Group Inc,"Virgin Islands, British","ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.25
+256,43088,106315,4254,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+257,43089,106316,4255,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,1.4558000564575195
+258,43555,107693,5632,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+259,43662,107968,5907,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+260,44192,109170,720,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/19/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+261,44279,109403,953,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,10/19/2021,N,N,N,N,N,0.0,N,0.0, CPRI,52.79999923706055
+262,44372,109581,1131,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,CHNR,1.2200000286102295
+263,44603,110129,1679,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+264,44719,110431,1981,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.14000000059604645
+265,45150,111538,3088,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+266,45250,111821,3371,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/19/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,22.850000381469727
+267,45367,112144,3694,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,NESR,12.890000343322754
+268,45382,112180,3730,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0, NCDZF,0.0
+269,45433,112344,3894,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/19/2021,N,N,N,N,N,0.0,N,0.0, NOMD,27.360000610351562
+270,45496,112519,4069,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.260000228881836
+271,45565,112705,4255,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+272,45566,112706,4256,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,1.7454999685287476
+273,46029,114097,5647,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+274,46137,114372,5922,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+275,46665,115572,721,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/29/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+276,46752,115804,953,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,10/29/2021,N,N,N,N,N,0.0,N,0.0, CPRI,54.040000915527344
+277,46845,115982,1131,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,CHNR,1.3600000143051147
+278,47075,116532,1681,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+279,47191,116834,1983,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.15000000596046448
+280,47618,117934,3083,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+281,47719,118218,3367,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/29/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,22.5
+282,47836,118542,3691,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,NESR,12.020000457763672
+283,47851,118578,3727,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0, NCDZF,0.0
+284,47902,118742,3891,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/29/2021,N,N,N,N,N,0.0,N,0.0, NOMD,27.59000015258789
+285,47965,118917,4066,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,4.079999923706055
+286,48034,119103,4252,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+287,48035,119104,4253,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,1.7454999685287476
+288,48497,120493,5642,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+289,48605,120767,5916,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+290,49132,121966,720,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,11/13/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+291,49216,122193,947,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,11/13/2021,N,N,N,N,N,0.0,N,0.0, MKO,0.0
+292,49309,122371,1125,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0, NY6,0.0
+293,49540,122922,1676,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+294,49655,123225,1979,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.0
+295,50075,124318,3072,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+296,50175,124599,3353,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,11/13/2021,N,N,N,N,N,0.0,N,0.0, RL9A,0.0
+297,50294,124923,3677,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0, NESRW,0.0
+298,50309,124958,3712,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0, NCDZF,0.0
+299,50360,125122,3876,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,11/13/2021,N,N,N,N,N,0.0,N,0.0, NOMD,0.0
+300,50422,125295,4049,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,0.0
+301,50490,125480,4234,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+302,50491,125481,4235,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0, VRY,0.0
+303,50950,126875,5629,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+304,51058,127146,5900,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+305,51587,128358,735,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,12/14/2021,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+306,51670,128584,961,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,12/14/2021,N,N,N,N,N,0.0,N,0.0, CPRI,64.7699966430664
+307,51763,128763,1140,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,CHNR,0.6600000262260437
+308,51992,129317,1694,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+309,52105,129623,2000,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0, FSHRF,0.12999999523162842
+310,52525,130730,3107,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+311,52625,131016,3393,Mail.ru Group Ltd,"Virgin Islands, British","61HE, MAIL, MAILL, MLRUY, MLRYY, RL9A",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,12/14/2021,N,N,N,N,N,0.0,N,0.0, MLRYY,12.399999618530273
+312,52743,131347,3724,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,NESR,10.739999771118164
+313,52758,131382,3759,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+314,52809,131551,3928,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,12/14/2021,N,N,N,N,N,0.0,N,0.0, NOMD,24.40999984741211
+315,52872,131729,4106,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0, ORXGF,3.950000047683716
+316,52940,131914,4291,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,2178,0.0
+317,52941,131915,4292,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0, PTVRF,1.750499963760376
+318,53400,133323,5700,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+319,53509,133604,5981,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+320,54039,134826,734,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,1/25/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+321,54122,135054,962,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,1/25/2022,N,N,N,N,N,0.0,N,0.0, CPRI,57.0
+322,54215,135234,1142,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.9100000262260437
+323,54442,135786,1694,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+324,54555,136092,2000,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.022949999198317528
+325,54971,137196,3104,Kina Petroleum Corp,"Virgin Islands, British",KINPF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,KINPF,0.0
+326,55188,137812,3720,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,NESR,10.170000076293945
+327,55203,137847,3755,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+328,55254,138016,3924,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,1/25/2022,N,N,N,N,N,0.0,N,0.0, NOMD,25.93000030517578
+329,55317,138193,4101,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,4.110000133514404
+330,55385,138376,4284,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+331,55386,138377,4285,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.8705999851226807
+332,55840,139780,5688,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+333,55949,140061,5969,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+334,56034,140254,6162,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,1/25/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,7.320000171661377
+335,56481,141282,732,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/9/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+336,56564,141509,959,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,2/9/2022,N,N,N,N,N,0.0,N,0.0, CPRI,70.69999694824219
+337,56657,141689,1139,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.8399999737739563
+338,56885,142238,1688,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+339,56998,142542,1992,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.125
+340,57626,144258,3708,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,NESR,10.130000114440918
+341,57641,144293,3743,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+342,57692,144462,3912,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/9/2022,N,N,N,N,N,0.0,N,0.0, NOMD,26.770000457763672
+343,57755,144640,4090,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,4.110000133514404
+344,57823,144823,4273,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+345,57824,144824,4274,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.6936999559402466
+346,58276,146221,5671,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+347,58384,146503,5953,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+348,58469,146698,6148,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/9/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,7.949999809265137
+349,58916,147726,731,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/16/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+350,59000,147956,961,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,2/16/2022,N,N,N,N,N,0.0,N,0.0, CPRI,71.16999816894531
+351,59094,148140,1145,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.8199999928474426
+352,59322,148686,1691,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+353,59436,148995,2000,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.13500000536441803
+354,60067,150717,3722,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,NESR,10.020000457763672
+355,60082,150752,3757,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+356,60133,150921,3926,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/16/2022,N,N,N,N,N,0.0,N,0.0, NOMD,25.989999771118164
+357,60196,151099,4104,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,4.199999809265137
+358,60264,151282,4287,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+359,60265,151283,4288,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.6019999980926514
+360,60719,152682,5687,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+361,60827,152965,5970,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,9.999999747378752e-05
+362,60911,153160,6165,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/16/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,7.980000019073486
+363,61361,154185,729,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,3/16/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+364,61447,154415,959,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,3/16/2022,N,N,N,N,N,0.0,N,0.0, CPRI,54.86000061035156
+365,61543,154600,1144,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.9800000190734863
+366,61775,155147,1691,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+367,61891,155458,2002,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.11999999731779099
+368,62526,157165,3709,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,NESR,8.59000015258789
+369,62541,157200,3744,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+370,62592,157369,3913,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,3/16/2022,N,N,N,N,N,0.0,N,0.0, NOMD,20.549999237060547
+371,62657,157547,4091,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,3.75
+372,62725,157732,4276,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+373,62726,157733,4277,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.7999999523162842
+374,63185,159134,5678,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+375,63293,159415,5959,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+376,63377,159609,6153,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,3/16/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+377,63821,160625,727,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,4/11/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+378,63908,160856,958,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,4/11/2022,N,N,N,N,N,0.0,N,0.0, CPRI,49.689998626708984
+379,64004,161042,1144,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.8899999856948853
+380,64236,161588,1690,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+381,64350,161899,2001,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.11999999731779099
+382,64982,163599,3701,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,NESR,8.479999542236328
+383,64997,163634,3736,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+384,65048,163801,3903,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,4/11/2022,N,N,N,N,N,0.0,N,0.0, NOMD,22.31999969482422
+385,65112,163979,4081,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,4.179999828338623
+386,65180,164163,4265,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+387,65181,164164,4266,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.9408999681472778
+388,65639,165557,5659,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+389,65747,165838,5940,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+390,65831,166032,6134,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,4/11/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+391,66273,167047,725,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,5/11/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+392,66359,167276,954,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,5/11/2022,N,N,N,N,N,0.0,N,0.0, CPRI,41.369998931884766
+393,66455,167462,1140,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.7099999785423279
+394,66684,168005,1683,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+395,66799,168318,1996,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.12999999523162842
+396,67428,170018,3696,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,NESR,7.050000190734863
+397,67443,170053,3731,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+398,67495,170220,3898,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,5/11/2022,N,N,N,N,N,0.0,N,0.0, NOMD,20.3799991607666
+399,67559,170398,4076,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,3.8299999237060547
+400,67626,170580,4258,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+401,67627,170581,4259,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,4.400000095367432
+402,68082,171973,5651,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+403,68190,172253,5931,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+404,68274,172447,6125,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,5/11/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,1.25
+405,68715,173461,727,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,6/14/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+406,68801,173689,955,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,6/14/2022,N,N,N,N,N,0.0,N,0.0, CPRI,47.38999938964844
+407,68896,173874,1140,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.6499999761581421
+408,69126,174414,1680,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+409,69242,174727,1993,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.12999999523162842
+410,69870,176425,3691,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,NESR,7.510000228881836
+411,69885,176459,3725,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+412,69936,176622,3888,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,6/14/2022,N,N,N,N,N,0.0,N,0.0, NOMD,19.59000015258789
+413,70000,176799,4065,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,4.090000152587891
+414,70067,176980,4246,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+415,70068,176981,4247,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,2.709199905395508
+416,70522,178372,5638,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+417,70631,178652,5918,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+418,70718,178849,6115,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,6/14/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+419,71159,179859,725,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,7/15/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+420,71245,180086,952,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,7/15/2022,N,N,N,N,N,0.0,N,0.0, CPRI,42.81999969482422
+421,71340,180271,1137,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.6200000047683716
+422,71567,180806,1672,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+423,71683,181119,1985,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.14000000059604645
+424,72309,182810,3676,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,NESR,6.340000152587891
+425,72324,182845,3711,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+426,72375,183008,3874,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,7/15/2022,N,N,N,N,N,0.0,N,0.0, NOMD,18.31999969482422
+427,72439,183185,4051,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,3.8499999046325684
+428,72508,183369,4235,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+429,72509,183370,4236,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.527500033378601
+430,72959,184763,5629,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+431,73069,185042,5908,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+432,73157,185241,6107,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,7/15/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+433,73597,186249,726,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,8/8/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+434,73683,186476,953,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,8/8/2022,N,N,N,N,N,0.0,N,0.0, CPRI,51.77000045776367
+435,73777,186661,1138,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.75
+436,74003,187194,1671,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+437,74118,187502,1979,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.09000000357627869
+438,74742,189194,3671,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,NESR,6.690000057220459
+439,74757,189228,3705,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+440,74807,189389,3866,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,8/8/2022,N,N,N,N,N,0.0,N,0.0, NOMD,19.799999237060547
+441,74870,189564,4041,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,3.9000000953674316
+442,74939,189747,4224,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+443,74940,189748,4225,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.3969000577926636
+444,75388,191142,5619,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+445,75497,191419,5896,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+446,75584,191615,6092,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,8/8/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+447,76020,192621,723,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/14/2022,N,N,N,N,N,0.0,N,0.0, BHVN,0.0
+448,76105,192848,950,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,9/14/2022,N,N,N,N,N,0.0,N,0.0, CPRI,48.02000045776367
+449,76201,193036,1138,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.6100000143051147
+450,76431,193570,1672,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+451,76547,193876,1978,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.11999999731779099
+452,77175,195562,3664,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,NESR,7.460000038146973
+453,77190,195597,3699,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+454,77240,195757,3859,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/14/2022,N,N,N,N,N,0.0,N,0.0, NOMD,17.450000762939453
+455,77304,195932,4034,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,3.7899999618530273
+456,77374,196114,4216,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+457,77375,196115,4217,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.4455000162124634
+458,77829,197516,5618,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+459,77938,197791,5893,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+460,78026,197988,6090,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,9/14/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+461,78461,198990,717,Biohaven Pharmaceutical Holding Co Ltd,"Virgin Islands, British","2VN, BHVN",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/19/2022,N,N,N,N,N,0.0,N,0.0, BHVN,12.645000457763672
+462,78545,199218,945,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,10/19/2022,N,N,N,N,N,0.0,N,0.0, CPRI,44.36000061035156
+463,78641,199406,1133,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.5199999809265137
+464,78869,199938,1665,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+465,78985,200242,1969,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.003000000026077032
+466,79609,201918,3645,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,NESR,6.909999847412109
+467,79624,201953,3680,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+468,79673,202111,3838,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/19/2022,N,N,N,N,N,0.0,N,0.0, NOMD,14.130000114440918
+469,79736,202285,4012,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,3.390000104904175
+470,79806,202467,4194,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+471,79807,202468,4195,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.4900000095367432
+472,80259,203864,5591,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+473,80367,204137,5864,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+474,80455,204333,6060,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,10/19/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,1.25
+475,80971,205559,940,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,11/9/2022,N,N,N,N,N,0.0,N,0.0, CPRI,49.650001525878906
+476,81066,205747,1128,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.4699999988079071
+477,81290,206276,1657,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+478,81406,206580,1961,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.12999999523162842
+479,82028,208254,3635,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,NESR,7.21999979019165
+480,82043,208289,3670,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+481,82090,208445,3826,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,11/9/2022,N,N,N,N,N,0.0,N,0.0, NOMD,16.121999740600586
+482,82153,208621,4002,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,3.4600000381469727
+483,82223,208802,4183,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+484,82224,208803,4184,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.4900000095367432
+485,82675,210194,5575,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+486,82781,210462,5843,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+487,82868,210657,6038,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,11/9/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+488,83387,211891,950,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,12/16/2022,N,N,N,N,N,0.0,N,0.0, CPRI,57.75
+489,83481,212081,1140,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,CHNR,0.3700000047683716
+490,83713,212610,1669,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+491,83826,212908,1967,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0, FSHRF,0.01269999984651804
+492,84460,214601,3660,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,NESR,6.380000114440918
+493,84474,214635,3694,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+494,84522,214788,3847,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,12/16/2022,N,N,N,N,N,0.0,N,0.0, NOMD,17.18000030517578
+495,84584,214961,4020,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0, ORXGF,3.4100000858306885
+496,84653,215146,4205,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,2178,0.0
+497,84654,215147,4206,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0, PTVRF,1.4900000095367432
+498,85103,216536,5595,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+499,85212,216809,5868,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+500,85298,217001,6060,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,12/16/2022,N,N,N,N,N,0.0,N,0.0, MLRYY,1.25
+501,85812,218223,944,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,1/27/2023,N,N,N,N,N,0.0,N,0.0, CPRI,64.72000122070312
+502,85906,218410,1131,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,CHNR,0.44999998807907104
+503,86142,218943,1664,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+504,86257,219241,1962,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0, FSHRF,0.09960000216960907
+505,86889,220928,3649,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,NESR,7.480000019073486
+506,86903,220963,3684,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+507,86951,221116,3837,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,1/27/2023,N,N,N,N,N,0.0,N,0.0, NOMD,17.520000457763672
+508,87014,221290,4011,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0, ORXGF,3.6600000858306885
+509,87082,221474,4195,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,2178,0.0
+510,87083,221475,4196,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0, PTVRF,1.9970999956130981
+511,87532,222866,5587,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+512,87642,223137,5858,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+513,87728,223329,6050,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,1/27/2023,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+514,88157,224317,708,Biohaven Ltd,"Virgin Islands, British",BHVN,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/8/2023,N,N,N,N,N,0.0,N,0.0,BHVN,18.670000076293945
+515,88242,224549,940,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,2/8/2023,N,N,N,N,N,0.0,N,0.0, CPRI,53.0
+516,88336,224737,1128,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,CHNR,0.6899999976158142
+517,88572,225269,1660,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+518,88688,225567,1958,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0, FSHRF,0.09960000216960907
+519,89318,227250,3641,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,NESR,7.610000133514404
+520,89332,227285,3676,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+521,89380,227438,3829,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/8/2023,N,N,N,N,N,0.0,N,0.0, NOMD,17.6200008392334
+522,89443,227612,4003,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0, ORXGF,3.7300000190734863
+523,89511,227796,4187,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,2178,0.0
+524,89512,227797,4188,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0, PTVRF,1.9970999956130981
+525,89961,229185,5576,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+526,90072,229458,5849,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+527,90161,229651,6042,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/8/2023,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+528,90590,230640,710,Biohaven Ltd,"Virgin Islands, British",BHVN,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/24/2023,N,N,N,N,N,0.0,N,0.0,BHVN,15.59000015258789
+529,90675,230872,942,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,2/24/2023,N,N,N,N,N,0.0,N,0.0, CPRI,50.40999984741211
+530,90769,231061,1131,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,CHNR,0.75
+531,91008,231599,1669,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+532,91124,231898,1968,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0, FSHRF,0.08500000089406967
+533,91755,233585,3655,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,NESR,6.880000114440918
+534,91769,233620,3690,Ncondezi Energy Ltd,"Virgin Islands, British","9NE, NCCL, NCCL.GB, NCDZF",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+535,91817,233773,3843,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/24/2023,N,N,N,N,N,0.0,N,0.0, NOMD,17.5
+536,91880,233947,4017,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0, ORXGF,3.75
+537,91948,234130,4200,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,2178,0.0
+538,91949,234131,4201,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0, PTVRF,1.9970999956130981
+539,92397,235518,5588,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+540,92507,235789,5859,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+541,92596,235982,6052,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,2/24/2023,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
+542,93112,237206,944,Capri Holdings Ltd,"Virgin Islands, British","CAPH34, CPRI, MKO",N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,3/9/2023,N,N,N,N,N,0.0,N,0.0, CPRI,46.40999984741211
+543,93208,237397,1135,China Natural Resources Inc,"Virgin Islands, British","CHNR, NY6",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,CHNR,0.8299999833106995
+544,93452,237944,1682,E-Commodities Holdings Ltd,"Virgin Islands, British","01733, WWY1",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0, WWY1,0.0
+545,93569,238246,1984,Feishang Anthracite Resources Ltd,"Virgin Islands, British","01738, FSHRF",Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0, FSHRF,0.07999999821186066
+546,94218,239958,3696,National Energy Services Reunited Corp,"Virgin Islands, British","NESR, NESRW",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,NESR,6.480000019073486
+547,94279,240146,3884,Nomad Foods Ltd,"Virgin Islands, British","0NH, 0RMO, NOMD",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,3/9/2023,N,N,N,N,N,0.0,N,0.0, NOMD,17.989999771118164
+548,94344,240325,4063,Orca Energy Group Inc,"Virgin Islands, British","E9NB, ORC.A, ORC.B, ORXGF",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0, ORXGF,3.9200000762939453
+549,94416,240513,4251,Petro-king Oilfield Services Ltd,"Virgin Islands, British",2178,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,2178,0.0
+550,94417,240514,4252,Petro-Victory Energy Corp,"Virgin Islands, British","79V, PTVRF, VRY",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0, PTVRF,1.9970999956130981
+551,94735,241530,5268,Solgenics Ltd,"Virgin Islands, British","9NE, NCCL.GB, NCDZF, SGN",Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0, NCDZF,0.01720000058412552
+552,94873,241915,5653,Thalassa Holdings Ltd,"Virgin Islands, British","TH2P, THAL",N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0, THAL,0.0
+553,94986,242188,5926,Underground Energy Corp,"Virgin Islands, British",UGGYF,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,UGGYF,0.0
+554,95079,242391,6129,VK Co Ltd,"Virgin Islands, British","61HE, MAILL, MLRUY, MLRYY, RL9A, VKCO",N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,3/9/2023,N,N,N,N,N,0.0,N,0.0, MLRYY,0.8999999761581421
