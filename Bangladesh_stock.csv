@@ -1,0 +1,498 @@
+,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,Company,Country,Tickers,Fossil Free Funds: Coal screen,Fossil Free Funds: Oil / gas screen,Fossil Free Funds: Macroclimate30 coal-fired utility screen,Fossil Free Funds: Fossil-fired utility screen,Fossil Free Funds: Clean200 screen,Deforestation Free Funds: Producer screen,Deforestation Free Funds: Financier screen,Deforestation Free Funds: Consumer brand screen,Deforestation Free Funds: Palm oil producer screen,Deforestation Free Funds: Palm oil consumer brand screen,Deforestation Free Funds: Paper / pulp producer screen,Deforestation Free Funds: Paper / pulp consumer brand screen,Deforestation Free Funds: Rubber producer screen,Deforestation Free Funds: Rubber consumer brand screen,Deforestation Free Funds: Timber producer screen,Deforestation Free Funds: Timber consumer brand screen,Deforestation Free Funds: Cattle producer screen,Deforestation Free Funds: Cattle consumer brand screen,Deforestation Free Funds: Soy producer screen,Deforestation Free Funds: Soy consumer brand screen,Weapons Free Funds: Major military contractor screen,Weapons Free Funds: Cluster munitions / landmines screen,Weapons Free Funds: Nuclear weapons screen,Gun Free Funds: Gun manufacturers screen,Gun Free Funds: Gun retailers screen,Tobacco Free Funds: Tobacco producers screen,Tobacco Free Funds: Tobacco-promoting entertainment companies screen,Gender Equality Funds: Has Equileap gender equality score,CreatedDate,Prison Free Funds: Prison industry screen,Prison Free Funds: Border industry screen,Prison Free Funds: Higher risk screen,Prison Free Funds: Private prison operators screen,Fossil Free Funds: Fossil fuel finance screen,Fossil Free Funds: Fossil fuel finance risk score,Fossil Free Funds: Fossil fuel insurance screen,Fossil Free Funds: Fossil fuel insurance risk score,Ticker,Stock_Price
+0,374,831,831,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+1,693,1490,1490,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+2,1015,2254,2254,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+3,1344,2987,2987,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+4,1405,3162,3162,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+5,1487,3385,3385,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+6,1569,3589,3589,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+7,1611,3693,3693,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+8,1673,3824,3824,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+9,1679,3837,3837,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+10,1821,4204,4204,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+11,2135,5074,5074,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,SPCL,70.58820343017578
+12,2308,5471,5471,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+13,2449,5790,5790,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+14,2529,6026,6026,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/14/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+15,3138,7289,827,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+16,3456,7943,1481,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+17,3776,8702,2240,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+18,4106,9436,2974,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+19,4167,9611,3149,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+20,4249,9834,3372,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+21,4332,10039,3577,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+22,4374,10143,3681,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+23,4435,10273,3811,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+24,4441,10285,3823,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+25,4583,10651,4189,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+26,4897,11521,5059,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,SPCL,70.58820343017578
+27,5068,11915,5453,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+28,5207,12232,5770,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+29,5287,12468,6006,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/19/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+30,5890,13727,826,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+31,6206,14379,1478,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+32,6524,15136,2235,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+33,6852,15867,2966,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+34,6913,16042,3141,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+35,6995,16265,3364,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+36,7078,16471,3570,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+37,7120,16573,3672,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+38,7182,16703,3802,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+39,7188,16715,3814,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+40,7330,17081,4180,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+41,7641,17947,5046,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,SPCL,71.86270141601562
+42,7813,18340,5439,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+43,7952,18655,5754,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+44,8033,18892,5991,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/10/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+45,8633,20147,823,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+46,8948,20796,1472,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+47,9264,21552,2228,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+48,9591,22282,2958,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+49,9653,22457,3133,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+50,9735,22678,3354,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+51,9818,22885,3561,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+52,9860,22985,3661,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+53,9922,23115,3791,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+54,9928,23126,3802,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+55,10072,23495,4171,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+56,10381,24359,5035,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,SPCL,70.58820343017578
+57,10553,24752,5428,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+58,10692,25067,5743,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+59,10773,25304,5980,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/16/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+60,11372,26557,821,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+61,11686,27206,1470,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+62,12000,27960,2224,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+63,12324,28687,2951,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+64,12387,28863,3127,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+65,12468,29083,3347,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+66,12550,29289,3553,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+67,12592,29390,3654,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+68,12655,29521,3785,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+69,12661,29533,3797,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+70,12806,29904,4168,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+71,13114,30767,5031,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,SPCL,76.66670227050781
+72,13287,31161,5425,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+73,13428,31478,5742,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+74,13512,31718,5982,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/11/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+75,14111,32968,819,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+76,14426,33617,1468,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+77,14739,34370,2221,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+78,15064,35098,2949,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+79,15126,35274,3125,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+80,15206,35492,3343,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+81,15287,35697,3548,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+82,15329,35798,3649,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+83,15392,35930,3781,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+84,15398,35942,3793,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+85,15544,36314,4165,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+86,15851,37177,5028,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,SPCL,0.0
+87,16024,37570,5421,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+88,16165,37886,5737,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+89,16249,38125,5976,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/13/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+90,16812,39366,810,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+91,17098,39989,1433,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+92,17384,40736,2180,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+93,17677,41431,2875,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+94,17736,41608,3052,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+95,17811,41813,3257,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+96,17882,42012,3456,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+97,17918,42110,3554,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+98,17978,42237,3681,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+99,17984,42249,3693,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+100,18120,42635,4079,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+101,18412,43502,4946,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,SPCL,74.3136978149414
+102,18579,43898,5342,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+103,18707,44202,5646,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+104,18784,44442,5886,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/28/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+105,19330,45681,808,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+106,19613,46299,1426,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+107,19899,47045,2172,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+108,20192,47738,2865,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+109,20251,47915,3042,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+110,20326,48121,3248,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+111,20398,48321,3448,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+112,20434,48419,3546,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+113,20494,48545,3672,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+114,20500,48557,3684,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+115,20635,48944,4071,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+116,20927,49811,4938,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,SPCL,0.0
+117,21092,50205,5332,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+118,21219,50508,5635,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+119,21296,50747,5874,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/18/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+120,21837,51977,801,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+121,22118,52591,1415,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+122,22398,53332,2156,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+123,22690,54023,2847,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+124,22748,54199,3023,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+125,22824,54406,3230,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+126,22896,54605,3429,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+127,22931,54701,3525,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+128,22991,54826,3650,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+129,22997,54838,3662,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+130,23131,55222,4046,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+131,23416,56081,4905,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,SPCL,70.7843017578125
+132,23581,56473,5297,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+133,23707,56775,5599,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+134,23783,57012,5836,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/11/2020,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+135,24332,58268,828,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+136,24612,58895,1455,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+137,24895,59658,2218,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+138,25186,60362,2922,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+139,25245,60543,3103,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+140,25321,60756,3316,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+141,25393,60963,3523,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+142,25428,61064,3624,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+143,25487,61189,3749,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+144,25493,61201,3761,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+145,25629,61601,4161,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+146,25915,62474,5034,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,SPCL,81.5999984741211
+147,26082,62882,5442,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+148,26208,63188,5748,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+149,26284,63427,5987,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/21/2021,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+150,26835,64689,825,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+151,27111,65311,1447,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+152,27394,66069,2205,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+153,27684,66768,2904,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+154,27741,66946,3082,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+155,27817,67160,3296,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+156,27888,67364,3500,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+157,27922,67464,3600,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+158,27981,67589,3725,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+159,27987,67601,3737,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+160,28123,68001,4137,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+161,28407,68873,5009,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,SPCL,74.30000305175781
+162,28572,69280,5416,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+163,28696,69583,5719,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+164,28773,69822,5958,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/3/2021,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+165,29318,71077,822,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+166,29594,71699,1444,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+167,29876,72456,2201,GBB Power Ltd,Bangladesh,GBBPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,GBBPOWER,0.0
+168,30166,73153,2898,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+169,30223,73331,3076,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+170,30298,73544,3289,Linde Bangladesh Ltd,Bangladesh,LINDEBD,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,LINDEBD,0.0
+171,30369,73748,3493,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+172,30403,73848,3593,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+173,30462,73974,3719,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+174,30468,73986,3731,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+175,30602,74380,4125,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+176,30886,75254,4999,Shahjibazar Power Co Ltd,Bangladesh,SPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,SPCL,73.0
+177,31051,75659,5404,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+178,31174,75962,5707,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+179,31252,76201,5946,United Power Generation and Distribution Co Ltd,Bangladesh,UPGDCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/1/2021,N,N,N,N,N,0.0,N,0.0,UPGDCL,0.0
+180,31798,77452,820,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+181,32080,78074,1442,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+182,32120,78195,1563,Dhaka Electric Supply Co Ltd,Bangladesh,DESCO,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,DESCO,0.0
+183,32657,79533,2901,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+184,32716,79713,3081,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+185,32805,79965,3333,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+186,32860,80122,3490,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+187,32894,80229,3597,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+188,32950,80353,3721,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+189,32956,80365,3733,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+190,33097,80764,4132,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+191,33548,82042,5410,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+192,33668,82342,5710,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/3/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+193,34305,83841,814,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+194,34587,84464,1437,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+195,34627,84586,1559,Dhaka Electric Supply Co Ltd,Bangladesh,DESCO,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,DESCO,0.0
+196,35157,85908,2881,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+197,35217,86086,3059,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+198,35306,86334,3307,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+199,35361,86489,3462,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+200,35395,86595,3568,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+201,35451,86718,3691,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+202,35457,86731,3704,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+203,35596,87128,4101,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+204,36043,88403,5376,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+205,36161,88700,5673,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+206,36796,90190,813,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+207,37076,90811,1434,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+208,37116,90932,1555,Dhaka Electric Supply Co Ltd,Bangladesh,DESCO,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,DESCO,0.0
+209,37644,92252,2875,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+210,37704,92430,3053,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+211,37794,92679,3302,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+212,37849,92835,3458,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+213,37883,92941,3564,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+214,37937,93062,3685,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+215,37943,93075,3698,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+216,38082,93475,4098,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+217,38529,94748,5371,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+218,38646,95047,5670,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/9/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+219,39281,96538,814,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+220,39559,97158,1434,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+221,39599,97279,1555,Dhaka Electric Supply Co Ltd,Bangladesh,DESCO,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,DESCO,0.0
+222,40126,98596,2872,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+223,40186,98774,3050,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+224,40275,99019,3295,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+225,40330,99176,3452,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+226,40364,99282,3558,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+227,40418,99403,3679,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+228,40424,99416,3692,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+229,40563,99816,4092,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+230,41009,101088,5364,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+231,41125,101384,5660,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/2/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+232,41759,102884,823,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+233,42037,103508,1447,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+234,42077,103629,1568,Dhaka Electric Supply Co Ltd,Bangladesh,DESCO,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,DESCO,0.0
+235,42606,104955,2894,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+236,42666,105136,3075,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+237,42755,105384,3323,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+238,42810,105542,3481,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+239,42843,105647,3586,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+240,42897,105770,3709,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+241,42903,105782,3721,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+242,43041,106190,4129,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+243,43481,107470,5409,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+244,43599,107771,5710,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/9/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+245,44238,109273,823,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+246,44516,109899,1449,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+247,44556,110020,1570,Dhaka Electric Supply Co Ltd,Bangladesh,DESCO,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,DESCO,0.0
+248,45084,111346,2896,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+249,45144,111527,3077,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+250,45233,111774,3324,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+251,45288,111933,3483,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+252,45320,112037,3587,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+253,45373,112159,3709,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+254,45379,112171,3721,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+255,45517,112579,4129,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+256,45955,113874,5424,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+257,46074,114175,5725,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+258,46711,115674,823,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+259,46987,116301,1450,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+260,47553,117744,2893,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+261,47612,117923,3072,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+262,47701,118170,3319,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+263,47757,118330,3479,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+264,47789,118434,3583,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+265,47842,118557,3706,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+266,47848,118569,3718,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+267,47986,118977,4126,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+268,48423,120270,5419,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+269,48542,120570,5719,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/29/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+270,49176,122066,820,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+271,49451,122690,1444,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+272,50011,124129,2883,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+273,50069,124307,3061,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+274,50157,124551,3305,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+275,50213,124710,3464,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+276,50247,124816,3570,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+277,50300,124938,3692,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+278,50306,124950,3704,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+279,50443,125355,4109,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+280,50877,126651,5405,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+281,50995,126951,5705,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/13/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+282,51631,128457,834,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+283,51906,129084,1461,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+284,52461,130539,2916,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+285,52519,130719,3096,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+286,52607,130968,3345,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+287,52662,131125,3502,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+288,52696,131241,3618,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+289,52749,131362,3739,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+290,52755,131374,3751,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+291,52893,131789,4166,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+292,53326,133095,5472,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+293,53445,133399,5776,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/14/2021,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+294,54083,134927,835,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+295,54356,135553,1461,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+296,54908,137006,2914,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+297,54965,137185,3093,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+298,55052,137433,3341,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+299,55107,137589,3497,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+300,55141,137705,3613,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+301,55194,137827,3735,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+302,55200,137839,3747,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+303,55338,138251,4159,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+304,55767,139552,5460,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+305,55885,139856,5764,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/25/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+306,56525,141383,833,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+307,56797,142007,1457,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+308,57349,143453,2903,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+309,57406,143632,3082,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+310,57492,143880,3330,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+311,57546,144035,3485,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+312,57579,144151,3601,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+313,57632,144273,3723,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+314,57638,144285,3735,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+315,57776,144698,4148,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+316,58203,145995,5445,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+317,58321,146297,5747,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/9/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+318,58961,147829,834,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+319,59234,148457,1462,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+320,59790,149914,2919,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+321,59847,150093,3098,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+322,59934,150339,3344,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+323,59988,150495,3500,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+324,60021,150611,3616,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+325,60073,150732,3737,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+326,60079,150744,3749,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+327,60217,151157,4162,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+328,60646,152456,5461,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+329,60763,152757,5762,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/16/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+330,61408,154288,832,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+331,61684,154917,1461,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+332,62246,156370,2914,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+333,62303,156548,3092,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+334,62391,156791,3335,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+335,62447,156949,3493,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+336,62479,157062,3606,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+337,62532,157180,3724,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+338,62538,157192,3736,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+339,62678,157606,4150,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+340,63111,158908,5452,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+341,63228,159208,5752,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/16/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+342,63869,160729,831,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+343,64145,161358,1460,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+344,64704,162808,2910,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+345,64761,162985,3087,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+346,64848,163227,3329,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+347,64903,163383,3485,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+348,64935,163496,3598,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+349,64988,163614,3716,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+350,64994,163626,3728,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+351,65133,164038,4140,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+352,65565,165332,5434,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+353,65682,165631,5733,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,4/11/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+354,66321,167150,828,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+355,66593,167776,1454,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+356,67151,169227,2905,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+357,67208,169404,3082,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+358,67296,169648,3326,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+359,67351,169802,3480,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+360,67382,169916,3594,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+361,67434,170033,3711,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+362,67440,170045,3723,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+363,67580,170457,4135,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+364,68008,171748,5426,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+365,68125,172046,5724,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,5/11/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+366,68762,173562,828,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+367,69035,174187,1453,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+368,69593,175633,2899,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+369,69650,175811,3077,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+370,69737,176054,3320,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+371,69793,176210,3476,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+372,69824,176323,3589,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+373,69876,176440,3706,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+374,69882,176452,3718,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+375,70021,176858,4124,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+376,70448,178148,5414,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+377,70566,178445,5711,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,6/14/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+378,71206,179960,826,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+379,71478,180582,1448,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+380,72033,182020,2886,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+381,72090,182198,3064,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+382,72177,182440,3306,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+383,72232,182594,3460,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+384,72263,182708,3574,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+385,72315,182825,3691,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+386,72321,182837,3703,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+387,72460,183244,4110,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+388,72885,184539,5405,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+389,73004,184836,5702,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,7/15/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+390,73644,186350,827,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+391,73914,186970,1447,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+392,74467,188403,2880,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+393,74523,188581,3058,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+394,74610,188822,3299,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+395,74665,188978,3455,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+396,74696,189092,3569,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+397,74748,189209,3686,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+398,74754,189221,3698,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+399,74891,189623,4100,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+400,75314,190917,5394,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+401,75433,191215,5692,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,8/8/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+402,76066,192721,823,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+403,76339,193344,1446,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+404,76899,194777,2879,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+405,76954,194954,3056,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+406,77042,195192,3294,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+407,77097,195344,3446,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+408,77128,195458,3560,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+409,77181,195577,3679,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+410,77187,195590,3692,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+411,77325,195991,4093,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+412,77755,197292,5394,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+413,77874,197589,5691,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,9/14/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+414,78507,199090,817,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+415,78778,199714,1441,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+416,79336,201139,2866,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+417,79391,201316,3043,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+418,79479,201554,3281,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+419,79532,201701,3428,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+420,79562,201814,3541,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+421,79615,201933,3660,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+422,79621,201946,3673,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+423,79757,202344,4071,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+424,80185,203640,5367,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+425,80303,203936,5663,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,10/19/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+426,80933,205431,812,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+427,81199,206052,1433,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+428,81756,207477,2858,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+429,81811,207654,3035,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+430,81899,207891,3272,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+431,81952,208037,3418,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+432,81982,208150,3531,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+433,82034,208269,3650,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+434,82040,208282,3663,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+435,82174,208680,4061,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+436,82602,209971,5352,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+437,82719,210264,5645,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,11/9/2022,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+438,83348,211762,821,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+439,83617,212383,1442,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+440,84180,213808,2867,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+441,84236,213987,3046,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+442,84328,214233,3292,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+443,84380,214378,3437,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+444,84413,214492,3551,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+445,84465,214615,3674,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+446,84471,214628,3687,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+447,84605,215023,4082,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+448,85030,216315,5374,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,12/16/2022,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+449,85774,218096,817,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+450,86046,218715,1436,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+451,86608,220137,2858,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+452,86665,220316,3037,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+453,86756,220560,3281,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+454,86809,220705,3426,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+455,86842,220819,3540,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+456,86894,220942,3663,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+457,86900,220956,3677,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+458,87035,221352,4073,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+459,87459,222647,5368,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+460,87577,222939,5660,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1/27/2023,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+461,88204,224422,813,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+462,88476,225042,1433,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+463,89038,226463,2854,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+464,89095,226640,3031,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+465,89185,226883,3274,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+466,89238,227028,3419,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+467,89271,227141,3532,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+468,89323,227264,3655,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+469,89329,227278,3669,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+470,89464,227674,4065,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+471,89888,228967,5358,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+472,90006,229258,5649,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/8/2023,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+473,90636,230744,814,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+474,90912,231372,1442,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+475,91474,232795,2865,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+476,91531,232972,3042,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+477,91622,233218,3288,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+478,91675,233362,3432,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+479,91708,233476,3546,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+480,91760,233599,3669,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+481,91766,233613,3683,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+482,91901,234008,4078,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+483,92325,235301,5371,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+484,92442,235591,5661,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2/24/2023,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
+485,93073,237078,816,British American Tobacco Bangladesh Co Ltd,Bangladesh,BATBC,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,BATBC,0.0
+486,93353,237712,1450,CVO Petrochemical Refinery Ltd,Bangladesh,CVOPRL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,CVOPRL,0.0
+487,93926,239155,2893,Jamuna Oil Co Ltd,Bangladesh,JAMUNAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,JAMUNAOIL,0.0
+488,93985,239336,3074,Khulna Power Co Ltd,Bangladesh,KPCL,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,KPCL,0.0
+489,94079,239586,3324,Lub-rref (Bangladesh) Ltd,Bangladesh,LRBDL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,LRBDL,0.0
+490,94134,239733,3471,Meghna Petroleum Ltd,Bangladesh,MPETROLEUM,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,MPETROLEUM,0.0
+491,94167,239846,3584,MJL Bangladesh Ltd,Bangladesh,MJLBD,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,MJLBD,0.0
+492,94223,239972,3710,National Tubes Ltd,Bangladesh,NTLTUBES,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,NTLTUBES,0.0
+493,94229,239986,3724,Navana CNG Ltd,Bangladesh,NAVANACNG,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,NAVANACNG,0.0
+494,94366,240387,4125,Padma Oil Co Ltd,Bangladesh,PADMAOIL,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,PADMAOIL,0.0
+495,94801,241699,5437,Summit Power Ltd,Bangladesh,SUMITPOWER,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,SUMITPOWER,0.0
+496,94920,241990,5728,Titas Gas Transmission & Distribution Co Ltd,Bangladesh,TITASGAS,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,3/9/2023,N,N,N,N,N,0.0,N,0.0,TITASGAS,0.0
