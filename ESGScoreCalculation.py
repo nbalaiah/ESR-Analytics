@@ -70,6 +70,51 @@ def calculate_Corr():
             outputD =df.corr(method ='kendall')['Stock_Price']
             outputD.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\Corr\\{0}_Corr.csv".format(name.replace('csv','')))
 
-calculate_Corr()
+#calculate_Corr()
 
+def isColContainsInWeights(name, weights):
+    for weight in weights:
+        if weight[0] in name:
+            return True
+    return False
 
+def ESGScore_Calculation():
+    
+    weights = [['Fossil',0.05],
+               ['Deforestation',0.01],
+               ['Weapons',0.005],
+               ['Gun',0.005],
+               ['Tobacco',0.01],
+               ['Gender Equality',0.01],
+               ['Prison',0.01]]
+
+    files = os.listdir("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock") 
+    for name in files:
+        #print(name)
+        final_result = pd.DataFrame()
+        if (name != 'Corr' and name != 'ESGScore'):
+            companies = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\" + name)
+            df = companies.loc[:, ~companies.columns.str.contains('^Unnamed')]
+            df = companies.loc[:, ~companies.columns.str.contains('^Tickers')]
+            #df = data_encoding(df)
+                                        
+            for index, row in df.iterrows(): 
+                ESGScore = 0 
+                valColumn = 0 
+                allColumn = 0      
+                for weight in weights:
+                    #cols = [col for col in df.columns if weight[0] in col]         
+                    for col in df.columns:
+                        #print(col)
+                        if isColContainsInWeights(col, weights):
+                            print(col + '  : ' + str(row[col]))
+                            allColumn = allColumn + 1
+                            if(row[col] == 'Y'):
+                                valColumn = valColumn + weight[1]
+                ESGScore = (valColumn / allColumn) * 100
+                row['ESGScore'] = ESGScore
+                final_result = final_result.append(row)
+            final_result.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\ESGScore\\{0}_ESG.csv".format(name.replace('.csv','')))
+
+                    
+ESGScore_Calculation()
