@@ -21,7 +21,10 @@ weights = [['Fossil',0.5],
                ['Gun',0.05],
                ['Tobacco',0.1],
                ['Gender Equality',0.1],
-               ['Prison',0.1]]
+               ['Prison',0.1],
+               ['War',0.1],
+               ['Political',0.1],
+               ['Sealevel',0.1]]
 
 def data_encoding(df):
     le = LabelEncoder()  
@@ -160,4 +163,10 @@ def split_data_climate_categories(weights):
 
 #split_data_climate_categories(weights)
 
-ESGScore_Calculation()
+#ESGScore_Calculation()
+
+def write_weights_file():
+    weights_pd = pd.DataFrame(weights)
+    weights_pd.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\{0}.csv".format("weights"))
+
+#write_weights_file()
