@@ -15,6 +15,7 @@ from IPython.display import display, HTML
 import yfinance as yf
 from sklearn.preprocessing import LabelEncoder
 from dateutil.relativedelta import relativedelta
+import matplotlib.dates as mdates
 
 def load_corr_data():
     corr_data = pd.DataFrame()
@@ -118,7 +119,7 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
     a_df_temp['Stock_Price'] = 0
     a_df_temp['Invested_Value'] = 0
     a_df_temp.drop(a_df_temp.index,inplace=True) 
-    
+    start_date_projection = pd.to_datetime(portfolio['CreatedDate']).max()
     for index,row in a_df.iterrows():
         print(row)
         precond_df = portfolio.query('Country ==\''+ row['Country'] + '\' and Ticker==\'' + row['Ticker'] + '\'')
@@ -134,7 +135,12 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
         for month in range (noOfMonths):
             nextMonthDate = start_date_projection + relativedelta(months=+month)
             another_temp = a_df_temp.query('CreatedDate ==\'' + str(previousMonthDate)+ '\'')
-            prevStockPrice = another_temp['Stock_Price'].iloc[0]
+            try:
+                prevStockPrice = another_temp['Stock_Price'].iloc[0]
+            except:
+                #another_temp = a_df_temp.query('CreatedDate ==\'' + str(pd.to_datetime((a_df_temp['CreatedDate']).max()))+ '\'')
+                #prevStockPrice = another_temp['Stock_Price'].iloc[0]
+                continue
             query_fossil = climate_data.query('Ticker ==\'' + row['Ticker'] + '\'')
             print(query_fossil)
             if query_fossil.empty == False and query_fossil['Ticker'].iloc[0] == row['Ticker']:
@@ -143,16 +149,46 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
                 if query_corr.empty == True:
                     corr = 0
                 else:
-                    corr = query_corr.groupby(['Measure'])['Stock_Price'].agg("mean")
+                    corr = query_corr['Stock_Price'].mean()
+                    #if isinstance(corr, pd.Series):
+                     #   corr = corr['Stock_Price'].mean()
                 newStockPrice = prevStockPrice * (1 - corr - discount_rate + growth_rate)
             else:
                 newStockPrice = prevStockPrice * (1 - discount_rate + growth_rate)
-            a_df_temp = a_df_temp.append({'Company':row['Company'],'Country':row['Country'],'Ticker':row['Ticker'],'Quantity':row['Quantity'], 'CreatedDate':nextMonthDate,'Stock_Price':newStockPrice}, ignore_index=True)
+            a_df_temp = a_df_temp.append({'Company':row['Company'],'Country':row['Country'],'Ticker':row['Ticker'],'Quantity':row['Quantity'], 'CreatedDate':nextMonthDate,'Stock_Price':newStockPrice,'Invested_Value':row['Quantity'] * newStockPrice}, ignore_index=True)
             print(prevStockPrice)
             previousMonthDate = nextMonthDate
     print(a_df_temp)
     a_df_temp.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\projected_result_temp.csv")
 
+def plot_projection( projection):
+    print(projection)
+    result_df = pd.DataFrame()
+    projection_grouped = projection.groupby(['CreatedDate'])['Invested_Value'].sum()
+    result_df = projection_grouped
+      
+    result_df.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\result_df_grouped.csv")
+    result_df = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\result_df_grouped.csv")
+    #result_df['CreatedDate']= pd.to_datetime(result_df['CreatedDate'])
+    result_df['CreatedDate']= pd.to_datetime(result_df['CreatedDate'])
+    result_df['CreatedMonth'] = result_df['CreatedDate'].dt.month
+    result_df['CreatedYear'] = result_df['CreatedDate'].dt.year
+    result_df['Created'] = result_df['CreatedYear'].astype(str) + ' : ' + result_df['CreatedMonth'].astype(str)
+    result_df.sort_values(['CreatedYear','CreatedMonth'],inplace=True)
+    result_df_grouped = result_df.groupby(['Created'])['Invested_Value'].sum()
+    
+    result_df_grouped.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\result_df_grouped_1.csv")
+    result_df_grouped = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\result_df_grouped_1.csv")
+    
+    fig = plt.figure(figsize=(50, 20))
+    ax = fig.add_subplot()
+    #ax.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+    ax.plot(result_df_grouped.Created, result_df_grouped.Invested_Value)
+    ax.set_ylabel("ROIC")
+    ax.set_xlabel("Timeframe")
+    ax.grid(True)
+    fig.autofmt_xdate()
+    plt.savefig('projection_plot.png',format='png')
 
 corr_data = load_corr_data()
 #print(corr_data)
@@ -161,8 +197,15 @@ climate_data = load_climate_data()
 #print(climate_data)
 
 portfolio = load_portfolio('portfolio')
-print(portfolio)
+#print(portfolio)
+
+
 
 #project_empty_dataset(portfolio, 2026)
-increase_temp_model(portfolio,corr_data,climate_data,2026)
+#increase_temp_model(portfolio,corr_data,climate_data,2024)
+
+projection = pd.DataFrame()
+projection = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\projected_result_temp.csv')
+
+plot_projection(projection)
 
