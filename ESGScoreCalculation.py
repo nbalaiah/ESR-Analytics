@@ -78,6 +78,7 @@ def calculate_Corr():
             df = data_encoding(df)
             outputD = pd.DataFrame()
             outputD =df.corr(method ='kendall')['Stock_Price']
+            outputD.rename(columns = {"" : "Measure"}, inplace = True)
             outputD.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\Corr\\{0}_Corr.csv".format(name.replace('csv','')))
 
 #calculate_Corr()
