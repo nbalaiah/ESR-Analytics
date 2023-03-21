@@ -16,6 +16,7 @@ import yfinance as yf
 from sklearn.preprocessing import LabelEncoder
 from dateutil.relativedelta import relativedelta
 import matplotlib.dates as mdates
+from datetime import date
 
 def load_corr_data():
     corr_data = pd.DataFrame()
@@ -120,6 +121,8 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
     a_df_temp['Invested_Value'] = 0
     a_df_temp.drop(a_df_temp.index,inplace=True) 
     start_date_projection = pd.to_datetime(portfolio['CreatedDate']).max()
+    last_date = date(year, 12, 31)
+    
     for index,row in a_df.iterrows():
         print(row)
         precond_df = portfolio.query('Country ==\''+ row['Country'] + '\' and Ticker==\'' + row['Ticker'] + '\'')
@@ -128,6 +131,8 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
         start_year = start_date_projection.year
         noOfYears = year - start_year
         noOfMonths = noOfYears * 12
+        r = relativedelta(start_date_projection, last_date)
+        #noOfMonths = r.months
         precond_df = precond_df.query('CreatedDate ==\'' + str(start_date_projection)+ '\'')
         precond_df=precond_df.filter(items=['Company','Country','Ticker','Quantity','CreatedDate','Stock_Price','Invested_Value'])
         a_df_temp = a_df_temp.append(precond_df)
@@ -159,6 +164,7 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
             print(prevStockPrice)
             previousMonthDate = nextMonthDate
     print(a_df_temp)
+    a_df_temp = a_df_temp.append(portfolio)
     a_df_temp.to_csv("projected_result_temp.csv")
 
 def plot_projection( projection):
@@ -173,41 +179,44 @@ def plot_projection( projection):
     result_df['CreatedDate']= pd.to_datetime(result_df['CreatedDate'])
     result_df['CreatedMonth'] = result_df['CreatedDate'].dt.month
     result_df['CreatedYear'] = result_df['CreatedDate'].dt.year
-    result_df['Created'] = result_df['CreatedYear'].astype(str) + ' : ' + result_df['CreatedMonth'].astype(str)
+    
     result_df.sort_values(['CreatedYear','CreatedMonth'],inplace=True)
-    result_df_grouped = result_df.groupby(['Created'])['Invested_Value'].sum()
+    result_df_grouped = result_df.groupby(['CreatedYear','CreatedMonth'])['Invested_Value'].sum()
     
     result_df_grouped.to_csv("result_df_grouped_1.csv")
     result_df_grouped = pd.read_csv("result_df_grouped_1.csv")
+    result_df_grouped.sort_values(['CreatedYear','CreatedMonth'],inplace=True)
+    result_df_grouped['Created'] = result_df_grouped['CreatedYear'].astype(str) + ' : ' + result_df_grouped['CreatedMonth'].astype(str)
     
-    fig = plt.figure(figsize=(50, 20))
+    fig = plt.figure(figsize=(20, 10))
     ax = fig.add_subplot()
     #ax.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
     ax.plot(result_df_grouped.Created, result_df_grouped.Invested_Value)
     ax.set_ylabel("ROIC")
     ax.set_xlabel("Timeframe")
+    #ax.set_xticks(rotation=45)
     ax.grid(True)
     fig.autofmt_xdate()
     plt.savefig('projection_plot.png',format='png')
 
 corr_data = load_corr_data()
-corr_data.to_csv("corr_master.csv")
+#corr_data.to_csv("corr_master.csv")
 #print(corr_data)
 
 climate_data = load_climate_data()
-climate_data.to_csv("climate_master.csv")
+#climate_data.to_csv("climate_master.csv")
 #print(climate_data)
 
-portfolio = load_portfolio('portfolio')
+portfolio = load_portfolio('portfolio_1')
 #print(portfolio)
 
 
 
 #project_empty_dataset(portfolio, 2026)
-#increase_temp_model(portfolio,corr_data,climate_data,2024)
+increase_temp_model(portfolio,corr_data,climate_data,2024)
 
 projection = pd.DataFrame()
 projection = pd.read_csv('projected_result_temp.csv')
 
-#plot_projection(projection)
+plot_projection(projection)
 

@@ -14,6 +14,7 @@ import pickle
 from IPython.display import display, HTML
 import yfinance as yf
 from sklearn.preprocessing import LabelEncoder
+from random import sample
 
 def calculate_portfolio():
     portfolio = pd.read_csv("data\\portfolio.csv")
@@ -100,4 +101,16 @@ def portfolio_returns_calculation():
     fig.autofmt_xdate()
     fig.savefig('portfolio_return.png',format='png')
 
-portfolio_returns_calculation()
+#portfolio_returns_calculation()
+
+def portfolio_sampling():
+    portfolio = pd.read_csv("data\\portfolio.csv")
+    tickers = portfolio['Ticker'].unique()
+    portfolio_1 = sample(sorted(tickers),50)
+    print(portfolio_1)
+    portfolio_1_pd = pd.DataFrame();
+    for ticker in portfolio_1:
+        rows = portfolio.query('Ticker ==\'' + ticker + '\'')
+        portfolio_1_pd = portfolio_1_pd.append(rows)
+    portfolio_1_pd.to_csv("data\\portfolio_3.csv")
+#portfolio_sampling()
