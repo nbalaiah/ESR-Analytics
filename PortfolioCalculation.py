@@ -17,7 +17,7 @@ from sklearn.preprocessing import LabelEncoder
 from random import sample
 
 def calculate_portfolio():
-    portfolio = pd.read_csv("data\\portfolio.csv")
+    portfolio = pd.read_csv("data\\portfolio_1.csv")
     portfolio_grouped = portfolio.groupby(['Country','Company','Ticker','CreatedDate'])['Invested_Value'].agg("sum")
     #print(portfolio_grouped)
     #portfolio_grouped.to_csv("data\\portfolio_grouped.csv")
@@ -50,7 +50,7 @@ def calculate_portfolio():
     fig.autofmt_xdate()
     fig.savefig('portfolio_plot.png',format='png')
 
-#calculate_portfolio()
+calculate_portfolio()
 
 def Get_Yahoo_Data(dateStr,stocks):
     testeddate = dateStr
@@ -69,8 +69,8 @@ def Get_Yahoo_Data(dateStr,stocks):
 
 def portfolio_returns_calculation():
     portfolio_grouped = pd.read_csv("data\\portfolio_grouped_stock.csv")
-    invested_capital = 395512270.1
-    benchmark_qty = 6523913.734
+    invested_capital = 208274234
+    benchmark_qty = 3435451.282
     colDates = portfolio_grouped['CreatedDate'].unique()
     benchmark = pd.DataFrame()
     for col in colDates:
@@ -101,7 +101,7 @@ def portfolio_returns_calculation():
     fig.autofmt_xdate()
     fig.savefig('portfolio_return.png',format='png')
 
-#portfolio_returns_calculation()
+portfolio_returns_calculation()
 
 def portfolio_sampling():
     portfolio = pd.read_csv("data\\portfolio.csv")
