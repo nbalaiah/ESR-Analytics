@@ -69,17 +69,17 @@ def data_encoding(df):
     return(df)
 
 def calculate_Corr():
-    files = os.listdir("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock") 
+    files = os.listdir("kaggle\\country\\stock") 
     for name in files:
         print(name)
-        if (name != 'Corr'):
-            companies = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\" + name)
+        if (name != 'Corr' and name !='ESGScore'):
+            companies = pd.read_csv("kaggle\\country\\stock\\" + name)
             df = companies.loc[:, ~companies.columns.str.contains('^Unnamed')]
             df = data_encoding(df)
             outputD = pd.DataFrame()
             outputD =df.corr(method ='kendall')['Stock_Price']
-            outputD.rename(columns = {"" : "Measure"}, inplace = True)
-            outputD.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\Corr\\{0}_Corr.csv".format(name.replace('csv','')))
+            #outputD.rename(columns = {"" : "Measure"}, inplace = True)
+            outputD.to_csv("kaggle\\country\\stock\\Corr\\{0}_Corr.csv".format(name.replace('csv','')))
 
 #calculate_Corr()
 
@@ -90,7 +90,7 @@ def isColContainsInWeights(name, weights):
     return False
 
 def ESGScore_Calculation():
-    companies = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\companies_master.csv")
+    companies = pd.read_csv("companies_master.csv")
     df = companies.loc[:, ~companies.columns.str.contains('^Unnamed')]
     df = companies.loc[:, ~companies.columns.str.contains('^Tickers')]
     #df = data_encoding(df)   
@@ -111,25 +111,25 @@ def ESGScore_Calculation():
         ESGScore = (valColumn / allColumn) * 100
         row['ESGScore'] = ESGScore
         final_result = final_result.append(row)
-    final_result.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\companies_master_ESG.csv")
+    final_result.to_csv("companies_master_ESG.csv")
 
                     
-#ESGScore_Calculation()
+ESGScore_Calculation()
 
 def generate_master_file():
-    files = os.listdir("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock") 
+    files = os.listdir("kaggle\\country\\stock") 
     final_result = pd.DataFrame()
     for name in files:
         #print(name)
         
         if (name != 'Corr' and name != 'ESGScore'):
-            companies = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\" + name)
+            companies = pd.read_csv("kaggle\\country\\stock\\" + name)
             df = companies.loc[:, ~companies.columns.str.contains('^Unnamed')]
             df = companies.loc[:, ~companies.columns.str.contains('^Tickers')]
             final_result = final_result.append(df)
 
     final_result = final_result.query('Stock_Price > 0')    
-    final_result.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\companies_master.csv")
+    final_result.to_csv("kaggle\\country\\stock\\companies_master.csv")
 
 #generate_master_file()
 
@@ -140,7 +140,7 @@ def Is_True(row, cols):
     return False
 
 def split_data_climate_categories(weights):
-    companies = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\companies_master.csv")
+    companies = pd.read_csv("companies_master.csv")
     companies = companies.query("CreatedDate == \'3/9/2023\'")
     for weight in weights:
         cols = [col for col in companies.columns if weight[0] in col]
@@ -149,18 +149,18 @@ def split_data_climate_categories(weights):
             if Is_True(row,cols):
                 new = [[row['Company'],row['Country'],row['Ticker']]]
                 df_result = df_result.append(new)
-        df_result.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\{0}.csv".format(weight[0]))
+        df_result.to_csv("data\\{0}.csv".format(weight[0]))
     companies_war = companies.query("Country == \'Ukraine\'")
     companies_war = companies_war[['Company','Country','Ticker']]
-    companies_war.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\{0}.csv".format("war"))
+    companies_war.to_csv("data\\{0}.csv".format("war"))
 
     companies_political = companies.query("Country == \'Venezuela\'")
     companies_political = companies_political[['Company','Country','Ticker']]
-    companies_political.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\{0}.csv".format("political"))
+    companies_political.to_csv("data\\{0}.csv".format("political"))
 
     companies_sealevel = companies.query("Country in (\'Cayman Islands\',\'Virgin Islands, British\',\'Mauritius\')")
     companies_sealevel = companies_sealevel[['Company','Country','Ticker']]
-    companies_sealevel.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\{0}.csv".format("sealevel"))
+    companies_sealevel.to_csv("data\\{0}.csv".format("sealevel"))
 
 #split_data_climate_categories(weights)
 
@@ -168,6 +168,6 @@ def split_data_climate_categories(weights):
 
 def write_weights_file():
     weights_pd = pd.DataFrame(weights)
-    weights_pd.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\{0}.csv".format("weights"))
+    weights_pd.to_csv("data\\{0}.csv".format("weights"))
 
 #write_weights_file()

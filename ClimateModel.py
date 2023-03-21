@@ -19,10 +19,10 @@ import matplotlib.dates as mdates
 
 def load_corr_data():
     corr_data = pd.DataFrame()
-    files = os.listdir("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\Corr") 
+    files = os.listdir("kaggle\\country\\stock\\Corr") 
     for name in files:
         print(name)
-        corr = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\stock\\Corr\\" + name)
+        corr = pd.read_csv("kaggle\\country\\stock\\Corr\\" + name)
         country = name.split("_")[0]
         corr['Country'] = country
         corr = corr.query('Stock_Price != 1')
@@ -33,43 +33,43 @@ def load_corr_data():
 
 def load_climate_data():
     climate_data = pd.DataFrame()
-    Fossil = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\Fossil.csv')
+    Fossil = pd.read_csv('data\\Fossil.csv')
     Fossil[3] = 'Fossil'
     climate_data = climate_data.append(Fossil)
 
-    Deforestation = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\Deforestation.csv')
+    Deforestation = pd.read_csv('data\\Deforestation.csv')
     Deforestation[3] = 'Deforestation'
     climate_data = climate_data.append(Deforestation)
 
-    GenderEquality = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\Gender Equality.csv')
+    GenderEquality = pd.read_csv('data\\Gender Equality.csv')
     GenderEquality[3] = 'GenderEquality'
     climate_data = climate_data.append(GenderEquality)
 
-    Gun = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\Gun.csv')
+    Gun = pd.read_csv('data\\Gun.csv')
     Gun[3] = 'Gun'
     climate_data = climate_data.append(Gun)
 
-    Political = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\political.csv')
+    Political = pd.read_csv('data\\political.csv')
     Political[3] = 'Political'
     climate_data = climate_data.append(Political)
 
-    Prison = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\Prison.csv')
+    Prison = pd.read_csv('data\\Prison.csv')
     Prison[3] = 'Prison'
     climate_data = climate_data.append(Prison)
 
-    Sealevel = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\sealevel.csv')
+    Sealevel = pd.read_csv('data\\sealevel.csv')
     Sealevel[3] = 'Sealevel'
     climate_data = climate_data.append(Sealevel)
 
-    Tobacco = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\Tobacco.csv')
+    Tobacco = pd.read_csv('data\\Tobacco.csv')
     Tobacco[3] = 'Tobacco'
     climate_data = climate_data.append(Tobacco)
 
-    War = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\war.csv')
+    War = pd.read_csv('data\\war.csv')
     War[3] = 'War'
     climate_data = climate_data.append(War)
 
-    Weapons = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\Weapons.csv')
+    Weapons = pd.read_csv('data\\Weapons.csv')
     Weapons[3] = 'Weapons'
     climate_data = climate_data.append(Weapons)
 
@@ -77,7 +77,7 @@ def load_climate_data():
 
 def load_portfolio(portfolio_name):
     portfolio = pd.DataFrame()
-    portfolio = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\{0}.csv'.format(portfolio_name))
+    portfolio = pd.read_csv('data\\{0}.csv'.format(portfolio_name))
     return (portfolio)
 
 def project_empty_dataset(portfolio, year):  
@@ -159,7 +159,7 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
             print(prevStockPrice)
             previousMonthDate = nextMonthDate
     print(a_df_temp)
-    a_df_temp.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\projected_result_temp.csv")
+    a_df_temp.to_csv("projected_result_temp.csv")
 
 def plot_projection( projection):
     print(projection)
@@ -167,8 +167,8 @@ def plot_projection( projection):
     projection_grouped = projection.groupby(['CreatedDate'])['Invested_Value'].sum()
     result_df = projection_grouped
       
-    result_df.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\result_df_grouped.csv")
-    result_df = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\result_df_grouped.csv")
+    result_df.to_csv("result_df_grouped.csv")
+    result_df = pd.read_csv("result_df_grouped.csv")
     #result_df['CreatedDate']= pd.to_datetime(result_df['CreatedDate'])
     result_df['CreatedDate']= pd.to_datetime(result_df['CreatedDate'])
     result_df['CreatedMonth'] = result_df['CreatedDate'].dt.month
@@ -177,8 +177,8 @@ def plot_projection( projection):
     result_df.sort_values(['CreatedYear','CreatedMonth'],inplace=True)
     result_df_grouped = result_df.groupby(['Created'])['Invested_Value'].sum()
     
-    result_df_grouped.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\result_df_grouped_1.csv")
-    result_df_grouped = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\result_df_grouped_1.csv")
+    result_df_grouped.to_csv("result_df_grouped_1.csv")
+    result_df_grouped = pd.read_csv("result_df_grouped_1.csv")
     
     fig = plt.figure(figsize=(50, 20))
     ax = fig.add_subplot()
@@ -191,9 +191,11 @@ def plot_projection( projection):
     plt.savefig('projection_plot.png',format='png')
 
 corr_data = load_corr_data()
+corr_data.to_csv("corr_master.csv")
 #print(corr_data)
 
 climate_data = load_climate_data()
+climate_data.to_csv("climate_master.csv")
 #print(climate_data)
 
 portfolio = load_portfolio('portfolio')
@@ -205,7 +207,7 @@ portfolio = load_portfolio('portfolio')
 #increase_temp_model(portfolio,corr_data,climate_data,2024)
 
 projection = pd.DataFrame()
-projection = pd.read_csv('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\projected_result_temp.csv')
+projection = pd.read_csv('projected_result_temp.csv')
 
-plot_projection(projection)
+#plot_projection(projection)
 

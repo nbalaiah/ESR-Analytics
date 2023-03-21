@@ -16,22 +16,22 @@ import yfinance as yf
 from sklearn.preprocessing import LabelEncoder
 
 def calculate_portfolio():
-    portfolio = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\portfolio.csv")
+    portfolio = pd.read_csv("data\\portfolio.csv")
     portfolio_grouped = portfolio.groupby(['Country','Company','Ticker','CreatedDate'])['Invested_Value'].agg("sum")
     #print(portfolio_grouped)
-    #portfolio_grouped.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\portfolio_grouped.csv")
+    #portfolio_grouped.to_csv("data\\portfolio_grouped.csv")
     portfolio_grouped = portfolio.groupby(['CreatedDate'])['Invested_Value'].agg("sum")
 
     portfolio_grouped_ESG = portfolio.groupby(['CreatedDate'])['ESGScore'].agg("mean")
     
 
-    portfolio_grouped.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\portfolio_grouped_stock.csv")
-    portfolio_grouped = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\portfolio_grouped_stock.csv")
+    portfolio_grouped.to_csv("data\\portfolio_grouped_stock.csv")
+    portfolio_grouped = pd.read_csv("data\\portfolio_grouped_stock.csv")
     portfolio_grouped['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped.sort_values(['CreatedDate'],inplace=True)
     
-    portfolio_grouped_ESG.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\portfolio_grouped_esg.csv")
-    portfolio_grouped_ESG = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\portfolio_grouped_esg.csv")
+    portfolio_grouped_ESG.to_csv("data\\portfolio_grouped_esg.csv")
+    portfolio_grouped_ESG = pd.read_csv("data\\portfolio_grouped_esg.csv")
     portfolio_grouped_ESG['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped_ESG.sort_values(['CreatedDate'],inplace=True)
 
@@ -67,7 +67,7 @@ def Get_Yahoo_Data(dateStr,stocks):
     return r, data
 
 def portfolio_returns_calculation():
-    portfolio_grouped = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\portfolio_grouped_stock.csv")
+    portfolio_grouped = pd.read_csv("data\\portfolio_grouped_stock.csv")
     invested_capital = 395512270.1
     benchmark_qty = 6523913.734
     colDates = portfolio_grouped['CreatedDate'].unique()
@@ -79,7 +79,7 @@ def portfolio_returns_calculation():
             benchmark = benchmark.append([[col,data.iloc[0][1],benchmark_qty * data.iloc[0][1],benchmark_qty * data.iloc[0][1] / invested_capital]])
     benchmark[0] = pd.to_datetime(benchmark[0])
     benchmark.sort_values([0],inplace=True)
-    benchmark.to_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\data\\benchmark.csv") 
+    benchmark.to_csv("data\\benchmark.csv") 
     portfolio_grouped['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped.sort_values(['CreatedDate'],inplace=True)
     portfolio_grouped['ROIC'] = portfolio_grouped['Invested_Value'] / invested_capital

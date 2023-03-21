@@ -46,10 +46,10 @@ def download_data():
 
 def data_aggregation():
     companies = pd.DataFrame()
-    files = os.listdir("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle") 
+    files = os.listdir("kaggle") 
     for name in files:
         print(name)
-        excel_data_df = pd.read_excel('C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\{0}'.format(name), sheet_name='Companies')
+        excel_data_df = pd.read_excel('kaggle\\{0}'.format(name), sheet_name='Companies')
         excel_data_df["CreatedDate"] = datetime.strptime(name.replace(".xlsx",""), '%Y%m%d').strftime('%m/%d/%Y')
         print(excel_data_df)
         companies = companies.append(excel_data_df)
@@ -81,8 +81,7 @@ def data_update_stock_price(companies):
     companies_final = pd.DataFrame()
     for index, row in companies.iterrows():
     #print(row)
-        try:
-            
+        try:            
             r, data = Get_Yahoo_Data(row['CreatedDate'],row['Tickers'])
             #print(row['CreatedDate'])
             #print(data['Close'][0])
@@ -112,13 +111,13 @@ def Get_Yahoo_Data(dateStr,stocks):
     return r, data
 
 def stock_price_updation():
-    files = os.listdir("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country") 
+    files = os.listdir("kaggle\\country") 
     for name in files:
         print(name)
         if name != 'stock':
-            companies = pd.read_csv("C:\\Users\\Dharshini\\Desktop\\Markets Workshop 2023\\kaggle\\country\\" + name)
+            companies = pd.read_csv("kaggle\\country\\" + name)
             companies_stock = data_update_stock_price(companies)
-            companies_stock.to_csv("kaggle\\country\\{0}_stock.csv".format(name.replace(".csv","")))
+            companies_stock.to_csv("kaggle\\country\\stock\\{0}_stock.csv".format(name.replace(".csv","")))
 
 #data_country_selection()
 #data_split_countrywise()
