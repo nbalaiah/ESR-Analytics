@@ -8,10 +8,13 @@
   
     </head>
     <body>
-        <div align="center">
-            {% block content %}
-            <table id="data" class="table table-striped">
-                
+        {% block content %}
+        <div class="container">
+            <div class="modal-body row">
+              
+    <div class="col-md-6"> 
+      <h2>Portfolio</h2>              
+            <table id="data1" class="table table-striped">               
                 <thead>
                     <tr>
                       <th>Ticker</th>
@@ -30,16 +33,39 @@
                       </tr>
                     {% endfor %}
                   </tbody>
-            </table>
-            {% endblock %}
-        </div>
+            </table>       
+    </div>
+    <div class="col-md-6">
+<h2>Benchmark</h2>
+        <table id="data2" class="table table-striped">
+            <thead>
+                <tr>
+                  <th>Invested Value</th>
+                  <th>Current Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for tick in benchmark_data %}
+                  <tr>
+                    <td>{{ tick.Invested_Value }}</td>
+                    <td>{{ tick.Current_Value }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+        </table>
+        
+      </div>
+     
+  </div>
+  {% endblock %}    
         <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.js"></script>
         {% block scripts %}
   <script>
     $(document).ready(function () {
-      $('#data').DataTable();
+      $('#data1').DataTable();
+      $('#data2').DataTable();
     });
   </script>
 {% endblock %}

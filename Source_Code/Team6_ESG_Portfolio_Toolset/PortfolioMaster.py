@@ -32,9 +32,8 @@ def show_portfolio(name):
         current_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Invested_Value'].iloc[0]
         climate_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Climate'].iloc[0]
         data = data.append({'Ticker':ticker,'Invested_Value': invested_value,'Current_Value':current_value,'Climate': climate_value},ignore_index=True)
-   #data=x.to_dict(orient='records')
-   #return render_template('portfolio.html', tables=[data.to_html(),data_benchmark.to_html()], titles=['Portfolio', 'Benchmark'])
-   return render_template('portfolio.html', portfolio_data=data.to_dict(orient='records'),title='ESG Portfolio')
+
+   return render_template('portfolio.html', portfolio_data=data.to_dict(orient='records'),benchmark_data=data_benchmark.to_dict(orient='records'),title='ESG Portfolio')
 
 
    #return jsonify(WORDS)
