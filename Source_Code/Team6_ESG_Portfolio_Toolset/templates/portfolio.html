@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> Table </title>              
+        <title> EGS Portfolio Toolkit </title>  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">            
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.css">
+  </head>
+  
     </head>
     <body>
         <div align="center">
-            <table>
-                <h1>
-                <!--Displaying the converted table-->
-                     {% for table in tables %}
-                    <h2>{{titles[loop.index]}}</h2>                            
-                    {{ table|safe }}
-                    {% endfor %}     
-                </h1> 
+            {% block content %}
+            <table id="data" class="table table-striped">
+                
+                <thead>
+                    <tr>
+                      <th>Ticker</th>
+                      <th>Invested Value</th>
+                      <th>Current Value</th>
+                      <th>Climate Impact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for tick in portfolio_data %}
+                      <tr>
+                        <td>{{ tick.Ticker }}</td>
+                        <td>{{ tick.Invested_Value }}</td>
+                        <td>{{ tick.Current_Value }}</td>
+                        <td>{{ tick.Climate }}</td>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
             </table>
+            {% endblock %}
         </div>
+        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.js"></script>
+        {% block scripts %}
+  <script>
+    $(document).ready(function () {
+      $('#data').DataTable();
+    });
+  </script>
+{% endblock %}
+       
     </body>
 </html>
