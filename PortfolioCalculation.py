@@ -172,7 +172,7 @@ def build_benchmark():
             stock_price = data.iloc[0][1]      
             benchmark = benchmark.append({'Ticker':'SUSA','Stock_Price': stock_price,'Invested_Value:': stock_price * benchmark_qty,'CreatedDate': date_['CreatedDate']}, ignore_index=True)
     
-    benchmark.to_csv("data\\benchmark.csv") 
+    #benchmark.to_csv("data\\benchmark.csv") 
 
 #build_benchmark()
 
@@ -188,4 +188,19 @@ def test_portfolio():
         current_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Invested_Value'].iloc[0]
         climate_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Climate'].iloc[0]
         data = data.append({'Ticker':ticker,'Invested_Value': invested_value,'Current_Value':current_value,'Climate': climate_value},ignore_index=True)
-test_portfolio()
+#test_portfolio()
+
+def add_country_data_to_portfolio():
+    Dict = {}
+    portfolio = pd.read_csv('data\\portfolio_sample_1.csv')
+    climate = pd.read_csv('data\\companies_master.csv')
+    for index, row in portfolio.iterrows():
+        data_row = climate.query('Ticker ==\'' + row['Ticker'] + '\'')
+        country_data = data_row['Country'].unique()
+        company_data = data_row['Company'].unique()
+        portfolio.at[index,'Country']=','.join(country_data)
+        portfolio.at[index,'Company']=','.join(company_data)
+ 
+    portfolio.to_csv('data\\portfolio_sample_1.csv')
+
+add_country_data_to_portfolio()

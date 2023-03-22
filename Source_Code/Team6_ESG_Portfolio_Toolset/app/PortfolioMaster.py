@@ -1,5 +1,4 @@
 from flask import Flask, redirect, url_for, render_template, jsonify
-from flask_paginate import Pagination, get_page_args
 import os
 import pandas as pd
 

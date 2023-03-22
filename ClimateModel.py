@@ -20,60 +20,18 @@ from datetime import date
 
 def load_corr_data():
     corr_data = pd.DataFrame()
-    files = os.listdir("kaggle\\country\\stock\\Corr") 
-    for name in files:
-        print(name)
-        corr = pd.read_csv("kaggle\\country\\stock\\Corr\\" + name)
-        country = name.split("_")[0]
-        corr['Country'] = country
-        corr = corr.query('Stock_Price != 1')
-        corr.update(corr.fillna(0))
-        corr_data = corr_data.append(corr)
+
+    corr = pd.read_csv("data\\corr_master.csv")
+
+    corr = corr.query('Stock_Price != 1')
+    corr.update(corr.fillna(0))
+    corr_data = corr
     return(corr_data)
 
 
 def load_climate_data():
     climate_data = pd.DataFrame()
-    Fossil = pd.read_csv('data\\Fossil.csv')
-    Fossil[3] = 'Fossil'
-    climate_data = climate_data.append(Fossil)
-
-    Deforestation = pd.read_csv('data\\Deforestation.csv')
-    Deforestation[3] = 'Deforestation'
-    climate_data = climate_data.append(Deforestation)
-
-    GenderEquality = pd.read_csv('data\\Gender Equality.csv')
-    GenderEquality[3] = 'GenderEquality'
-    climate_data = climate_data.append(GenderEquality)
-
-    Gun = pd.read_csv('data\\Gun.csv')
-    Gun[3] = 'Gun'
-    climate_data = climate_data.append(Gun)
-
-    Political = pd.read_csv('data\\political.csv')
-    Political[3] = 'Political'
-    climate_data = climate_data.append(Political)
-
-    Prison = pd.read_csv('data\\Prison.csv')
-    Prison[3] = 'Prison'
-    climate_data = climate_data.append(Prison)
-
-    Sealevel = pd.read_csv('data\\sealevel.csv')
-    Sealevel[3] = 'Sealevel'
-    climate_data = climate_data.append(Sealevel)
-
-    Tobacco = pd.read_csv('data\\Tobacco.csv')
-    Tobacco[3] = 'Tobacco'
-    climate_data = climate_data.append(Tobacco)
-
-    War = pd.read_csv('data\\war.csv')
-    War[3] = 'War'
-    climate_data = climate_data.append(War)
-
-    Weapons = pd.read_csv('data\\Weapons.csv')
-    Weapons[3] = 'Weapons'
-    climate_data = climate_data.append(Weapons)
-
+    climate_data = pd.read_csv('data\\climate_master.csv')
     return(climate_data)
 
 def load_portfolio(portfolio_name):
@@ -135,13 +93,17 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
         #noOfMonths = r.months
         precond_df = precond_df.query('CreatedDate ==\'' + str(start_date_projection)+ '\'')
         precond_df=precond_df.filter(items=['Company','Country','Ticker','Quantity','CreatedDate','Stock_Price','Invested_Value'])
-        a_df_temp = a_df_temp.append(precond_df)
+        
+        #a_df_temp = a_df_temp.append(precond_df)
         previousMonthDate = start_date_projection
-        for month in range (noOfMonths):
+        another_temp = precond_df.query('CreatedDate ==\'' + str(previousMonthDate)+ '\' and Ticker ==\'' +row['Ticker']+ '\'')
+        prevStockPrice = another_temp['Stock_Price'].iloc[0]
+        for month in range (1, noOfMonths):
             nextMonthDate = start_date_projection + relativedelta(months=+month)
-            another_temp = a_df_temp.query('CreatedDate ==\'' + str(previousMonthDate)+ '\'')
+            another_temp = a_df_temp.query('CreatedDate ==\'' + str(previousMonthDate)+ '\' and Ticker ==\'' +row['Ticker']+ '\'')
             try:
-                prevStockPrice = another_temp['Stock_Price'].iloc[0]
+                if month != 1:
+                    prevStockPrice = another_temp['Stock_Price'].iloc[0]
             except:
                 #another_temp = a_df_temp.query('CreatedDate ==\'' + str(pd.to_datetime((a_df_temp['CreatedDate']).max()))+ '\'')
                 #prevStockPrice = another_temp['Stock_Price'].iloc[0]
@@ -157,7 +119,7 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
                     corr = query_corr['Stock_Price'].mean()
                     #if isinstance(corr, pd.Series):
                      #   corr = corr['Stock_Price'].mean()
-                newStockPrice = prevStockPrice * (1 - corr - discount_rate + growth_rate)
+                newStockPrice = prevStockPrice * (1 - (corr/12) - discount_rate + growth_rate)
             else:
                 newStockPrice = prevStockPrice * (1 - discount_rate + growth_rate)
             a_df_temp = a_df_temp.append({'Company':row['Company'],'Country':row['Country'],'Ticker':row['Ticker'],'Quantity':row['Quantity'], 'CreatedDate':nextMonthDate,'Stock_Price':newStockPrice,'Invested_Value':row['Quantity'] * newStockPrice}, ignore_index=True)
@@ -207,13 +169,13 @@ climate_data = load_climate_data()
 #climate_data.to_csv("climate_master.csv")
 #print(climate_data)
 
-portfolio = load_portfolio('portfolio_1')
+portfolio = load_portfolio('portfolio_sample_1')
 #print(portfolio)
 
 
 
 #project_empty_dataset(portfolio, 2026)
-increase_temp_model(portfolio,corr_data,climate_data,2024)
+increase_temp_model(portfolio,corr_data,climate_data,2050)
 
 projection = pd.DataFrame()
 projection = pd.read_csv('projected_result_temp.csv')
