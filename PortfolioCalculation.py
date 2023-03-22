@@ -174,4 +174,18 @@ def build_benchmark():
     
     benchmark.to_csv("data\\benchmark.csv") 
 
-build_benchmark()
+#build_benchmark()
+
+def test_portfolio():
+    portfolio = pd.read_csv('data\\portfolio_sample_1.csv')
+    portfolio['CreatedDate']= pd.to_datetime(portfolio['CreatedDate'])
+    maxDate = portfolio['CreatedDate'].max()
+    minDate = portfolio['CreatedDate'].min()
+    tickers = portfolio['Ticker'].unique()
+    data = pd.DataFrame()
+    for ticker in tickers:
+        invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\' and Ticker ==\'' + ticker + '\'')['Invested_Value'].iloc[0]
+        current_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Invested_Value'].iloc[0]
+        climate_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Climate'].iloc[0]
+        data = data.append({'Ticker':ticker,'Invested_Value': invested_value,'Current_Value':current_value,'Climate': climate_value},ignore_index=True)
+test_portfolio()
