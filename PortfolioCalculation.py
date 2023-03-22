@@ -15,6 +15,7 @@ from IPython.display import display, HTML
 import yfinance as yf
 from sklearn.preprocessing import LabelEncoder
 from random import sample
+import math
 
 def calculate_portfolio():
     portfolio = pd.read_csv("data\\portfolio_1.csv")
@@ -50,7 +51,7 @@ def calculate_portfolio():
     fig.autofmt_xdate()
     fig.savefig('portfolio_plot.png',format='png')
 
-calculate_portfolio()
+#calculate_portfolio()
 
 def Get_Yahoo_Data(dateStr,stocks):
     testeddate = dateStr
@@ -101,7 +102,7 @@ def portfolio_returns_calculation():
     fig.autofmt_xdate()
     fig.savefig('portfolio_return.png',format='png')
 
-portfolio_returns_calculation()
+#portfolio_returns_calculation()
 
 def portfolio_sampling():
     portfolio = pd.read_csv("data\\portfolio.csv")
@@ -112,5 +113,65 @@ def portfolio_sampling():
     for ticker in portfolio_1:
         rows = portfolio.query('Ticker ==\'' + ticker + '\'')
         portfolio_1_pd = portfolio_1_pd.append(rows)
-    portfolio_1_pd.to_csv("data\\portfolio_3.csv")
+    #portfolio_1_pd.to_csv("data\\portfolio_3.csv")
+    return portfolio_1, portfolio
 #portfolio_sampling()
+
+def build_portfolio(): 
+    portfolio_sample, portfolio = portfolio_sampling()
+    portfolio['CreatedDate']= pd.to_datetime(portfolio['CreatedDate'])
+    portfolio['month'] = pd.DatetimeIndex(portfolio['CreatedDate']).month
+    portfolio['year'] = pd.DatetimeIndex(portfolio['CreatedDate']).year
+    dates = pd.read_csv("data\\Dates.csv")
+    portfolio_final = pd.DataFrame()
+    for ticker in portfolio_sample:
+        print(ticker)
+        for index, date_ in dates.iterrows():
+            print(date_)
+            if (ticker !='Company'):
+                r, stock_price = Get_Yahoo_Data(date_['CreatedDate'],ticker)
+                month, day, year = date_['CreatedDate'].split('/')
+                ESGScores = pd.DataFrame(portfolio.query('Ticker==\''+ticker +'\' and month==' + month + ' and year==' + year))
+                print(ESGScores)
+                if ESGScores.empty == False:
+                    ESGScore = ESGScores['ESGScore'].iloc[0]
+                else:
+                    ESGScore = 0
+                print(ESGScore)
+                if (stock_price.empty == False and stock_price['Close'].empty == False):
+                    stock = stock_price.iloc[0][1]
+                else:
+                    stock = 0
+                portfolio_final = portfolio_final.append({'Ticker':ticker, 'CreatedDate':date_['CreatedDate'], 'Stock_Price':stock, 'ESGScore': ESGScore}, ignore_index=True)
+    portfolio_final.to_csv('data\\portfolio_sample_1.csv')
+#build_portfolio()
+
+def add_climate_data_to_portfolio():
+    Dict = {}
+    portfolio = pd.read_csv('data\\portfolio_sample_1.csv')
+    climate = pd.read_csv('data\\climate_master.csv')
+    for index, row in portfolio.iterrows():
+        climate_data_row = climate.query('Ticker ==\'' + row['Ticker'] + '\'')
+        climate_data = climate_data_row['Climate'].unique()
+        Dict[row['Ticker']] = ','.join(climate_data)
+        print( Dict[row['Ticker']] )
+        portfolio.at[index,'Climate']=','.join(climate_data)
+    print(Dict)
+    portfolio.to_csv('data\\portfolio_sample_1.csv')
+#add_climate_data_to_portfolio()
+
+def build_benchmark():
+    #22987228.74
+    #60.625
+    benchmark_qty = math.floor(22987228.74 / 60.625)
+    dates = pd.read_csv("data\\Dates.csv")
+    benchmark = pd.DataFrame()
+    for index, date_ in dates.iterrows():
+        r, data = Get_Yahoo_Data(date_['CreatedDate'],'SUSA')    
+        if (data.empty == False and data['Close'].empty == False):
+            stock_price = data.iloc[0][1]      
+            benchmark = benchmark.append({'Ticker':'SUSA','Stock_Price': stock_price,'Invested_Value:': stock_price * benchmark_qty,'CreatedDate': date_['CreatedDate']}, ignore_index=True)
+    
+    benchmark.to_csv("data\\benchmark.csv") 
+
+build_benchmark()
