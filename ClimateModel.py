@@ -17,6 +17,7 @@ from sklearn.preprocessing import LabelEncoder
 from dateutil.relativedelta import relativedelta
 import matplotlib.dates as mdates
 from datetime import date
+import math
 
 def load_corr_data():
     corr_data = pd.DataFrame()
@@ -129,6 +130,80 @@ def increase_temp_model(portfolio, corr_data, climate_data, year):
     a_df_temp = a_df_temp.append(portfolio)
     a_df_temp.to_csv("projected_result_temp.csv")
 
+def calculate_SAD(latitude, CreatedDate):
+    latitude = float(latitude)
+    year, month, day = CreatedDate.split('-')
+    day=day[:2]
+    inside = 2 * 3.14 / 365 * (float(day) - 80.25)
+    sun_inclination_angle = 0.4102 * math.sin(inside)
+    Ht = 24 - (7.72 * (- math.tan(2 * 3.14 * latitude / 360) * math.tan(sun_inclination_angle)))
+    SAD = Ht - 12
+    #print(SAD/1000)
+    return(SAD/(24*100))
+    #return 0
+
+def increase_temp_model_SAD(portfolio, corr_data, climate_data,discount_rate,growth_rate, year):
+    discount_rate = discount_rate/12
+    growth_rate = growth_rate/12
+    print(year)
+    a_df=portfolio.filter(items=['Company','Country','Ticker','Quantity','Latitude']).drop_duplicates()
+    a_df_temp = a_df.copy()
+    a_df_temp['CreatedDate'] = datetime.now
+    a_df_temp['Stock_Price'] = 0
+    a_df_temp['Invested_Value'] = 0
+    a_df_temp.drop(a_df_temp.index,inplace=True) 
+    start_date_projection = pd.to_datetime(portfolio['CreatedDate']).max()
+    last_date = date(year, 12, 31)
+    
+    for index,row in a_df.iterrows():
+        print(row)
+        precond_df = portfolio.query('Country ==\''+ row['Country'] + '\' and Ticker==\'' + row['Ticker'] + '\'')
+        precond_df['CreatedDate']= pd.to_datetime(precond_df['CreatedDate'])
+        start_date_projection = precond_df['CreatedDate'].max()
+        start_year = start_date_projection.year
+        noOfYears = year - start_year
+        noOfMonths = noOfYears * 12
+        r = relativedelta(start_date_projection, last_date)
+        #noOfMonths = r.months
+        precond_df = precond_df.query('CreatedDate ==\'' + str(start_date_projection)+ '\'')
+        precond_df=precond_df.filter(items=['Company','Country','Ticker','Quantity','CreatedDate','Stock_Price','Invested_Value'])
+        
+        #a_df_temp = a_df_temp.append(precond_df)
+        previousMonthDate = start_date_projection
+        another_temp = precond_df.query('CreatedDate ==\'' + str(previousMonthDate)+ '\' and Ticker ==\'' +row['Ticker']+ '\'')
+        prevStockPrice = another_temp['Stock_Price'].iloc[0]
+        for month in range (1, noOfMonths):
+            nextMonthDate = start_date_projection + relativedelta(months=+month)
+            another_temp = a_df_temp.query('CreatedDate ==\'' + str(previousMonthDate)+ '\' and Ticker ==\'' +row['Ticker']+ '\'')
+            try:
+                if month != 1:
+                    prevStockPrice = another_temp['Stock_Price'].iloc[0]
+            except:
+                #another_temp = a_df_temp.query('CreatedDate ==\'' + str(pd.to_datetime((a_df_temp['CreatedDate']).max()))+ '\'')
+                #prevStockPrice = another_temp['Stock_Price'].iloc[0]
+                continue
+            query_fossil = climate_data.query('Ticker ==\'' + row['Ticker'] + '\'')
+            print(query_fossil)
+            if query_fossil.empty == False and query_fossil['Ticker'].iloc[0] == row['Ticker']:
+                query_corr= corr_data.query('Country ==\'' + row['Country']+ '\'')
+                query_corr = query_corr[query_corr['Measure'].str.contains("Fossil")]
+                if query_corr.empty == True:
+                    corr = 0
+                else:
+                    corr = query_corr['Stock_Price'].mean()
+                    #if isinstance(corr, pd.Series):
+                     #   corr = corr['Stock_Price'].mean()
+                newStockPrice = prevStockPrice * (1 - calculate_SAD(row['Latitude'],str(previousMonthDate)) - (corr/12) - discount_rate + growth_rate)
+            else:
+                newStockPrice = prevStockPrice * (1 - discount_rate + growth_rate)
+            a_df_temp = a_df_temp.append({'Company':row['Company'],'Country':row['Country'],'Ticker':row['Ticker'],'Quantity':row['Quantity'], 'CreatedDate':nextMonthDate,'Stock_Price':newStockPrice,'Invested_Value':row['Quantity'] * newStockPrice}, ignore_index=True)
+            print(prevStockPrice)
+            previousMonthDate = nextMonthDate
+    print(a_df_temp)
+    a_df_temp = a_df_temp.append(portfolio)
+    a_df_temp.to_csv("projected_result_temp.csv")
+
+
 def plot_projection( projection):
     print(projection)
     result_df = pd.DataFrame()
@@ -169,16 +244,23 @@ climate_data = load_climate_data()
 #climate_data.to_csv("climate_master.csv")
 #print(climate_data)
 
-portfolio = load_portfolio('portfolio_sample_1')
+#portfolio = load_portfolio('portfolio_sample_1')
+portfolio = load_portfolio('portfolio_sample_2')
 #print(portfolio)
 
 
 
 #project_empty_dataset(portfolio, 2026)
-increase_temp_model(portfolio,corr_data,climate_data,2050)
+#increase_temp_model(portfolio,corr_data,climate_data,2050)
+increase_temp_model_SAD(portfolio,corr_data,climate_data,0.04,0.08,2025)
 
 projection = pd.DataFrame()
 projection = pd.read_csv('projected_result_temp.csv')
 
 plot_projection(projection)
+
+
+
+#calculate_SAD()
+
 
