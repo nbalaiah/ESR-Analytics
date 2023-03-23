@@ -24,7 +24,10 @@ def gfg():
        portfolio = request.form.get("portf")
        fyear = request.form.get("fyear")
        #return "You selected : "+grate  + " " + drate + " " + portfolio+ " " + fyear
-       return increase_temp_model_SAD(portfolio,float(drate),float(grate),int(fyear))
+       dict = {}
+       dict['message'] = increase_temp_model_SAD(portfolio,float(drate),float(grate),int(fyear))
+       dict['file'] = portfolio
+       return render_template('model_result.html', result=dict,title='ESG Portfolio toolkit')
     return render_template("model.html")
 
 @app.route('/portfolio/<name>')
