@@ -30,7 +30,24 @@
             <div class="modal-body row">
               
     <div class="col-md-6"> 
-      <h2>Portfolio</h2>              
+      <h4>Portfolio</h4>   
+      <table id="data3" class="table table-striped">
+        <thead>
+            <tr>
+              <th>Invested Value</th>
+              <th>Current Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for tick in data_portfolio %}
+              <tr>
+                <td>{{ tick.Invested_Value }}</td>
+                <td>{{ tick.Current_Value }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+    </table> 
+    <img src="data:image/png;base64, {{ plot_url2 }}" width="700" height="600">          
             <table id="data1" class="table table-striped">               
                 <thead>
                     <tr>
@@ -53,7 +70,7 @@
             </table>       
     </div>
     <div class="col-md-6">
-<h2>Benchmark</h2>
+<h4>Benchmark</h4>
         <table id="data2" class="table table-striped">
             <thead>
                 <tr>
@@ -70,7 +87,7 @@
                 {% endfor %}
               </tbody>
         </table>
-        
+  <img src="data:image/png;base64, {{ plot_url1 }}" width="700" height="600">
       </div>
      
   </div>
@@ -83,6 +100,7 @@
     $(document).ready(function () {
       $('#data1').DataTable();
       $('#data2').DataTable();
+      $('#data3').DataTable();
     });
   </script>
 {% endblock %}

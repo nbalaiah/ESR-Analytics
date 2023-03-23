@@ -30,6 +30,73 @@ def gfg():
        return render_template('model_result.html', result=dict,title='ESG Portfolio toolkit')
     return render_template("model.html")
 
+def show_portfolio_plot(name):
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio = pd.read_csv(os.path.join(basedir,"data\\{0}.csv".format(name)))
+    portfolio_grouped = portfolio.groupby(['Country','Company','Ticker','CreatedDate'])['Invested_Value'].agg("sum")
+    #print(portfolio_grouped)
+    #portfolio_grouped.to_csv("data\\portfolio_grouped.csv")
+    portfolio_grouped = portfolio.groupby(['CreatedDate'])['Invested_Value'].agg("sum")
+
+    portfolio_grouped_ESG = portfolio.groupby(['CreatedDate'])['ESGScore'].agg("mean")
+    
+
+    portfolio_grouped.to_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
+    portfolio_grouped = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
+    portfolio_grouped['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
+    portfolio_grouped.sort_values(['CreatedDate'],inplace=True)
+    
+    portfolio_grouped_ESG.to_csv(os.path.join(basedir,"data\\portfolio_grouped_esg_{0}.csv".format(name)))
+    portfolio_grouped_ESG = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_esg_{0}.csv".format(name)))
+    portfolio_grouped_ESG['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
+    portfolio_grouped_ESG.sort_values(['CreatedDate'],inplace=True)
+    img = BytesIO()
+    fig, ax = plt.subplots(nrows=2, ncols=1)
+    plt.title = "Invested Amount Vs ESG Score"
+    ax[0].plot(portfolio_grouped.CreatedDate, portfolio_grouped.Invested_Value)
+    ax[1].plot(portfolio_grouped_ESG.CreatedDate, portfolio_grouped_ESG.ESGScore)
+    ax[0].set_ylabel("Invested Value")
+    ax[0].set_xlabel("Timeframe")
+    ax[0].tick_params(axis='x', rotation=45)
+
+    ax[1].set_ylabel("Avg ESG Score")
+    ax[1].set_xlabel("Timeframe")
+    ax[1].tick_params(axis='x', rotation=45)
+    fig.autofmt_xdate()
+    plt.savefig(img,format='png')
+    plot_url = base64.b64encode(img.getvalue()).decode('utf8')
+    return(plot_url)
+
+def portfolio_returns_calculation(name):
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio_grouped = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
+
+    benchmark = pd.DataFrame()
+    benchmark_file = os.path.join(basedir, 'data/benchmark.csv')
+    benchmark = pd.read_csv(benchmark_file)
+    portfolio_grouped['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
+    portfolio_grouped.sort_values(['CreatedDate'],inplace=True)
+    portfolio_grouped['ROIC'] = portfolio_grouped['Invested_Value']
+
+    img = BytesIO()
+    fig, ax = plt.subplots(nrows=2, ncols=1)
+    
+    ax[0].plot(portfolio_grouped['CreatedDate'], portfolio_grouped['ROIC'])
+    plt.title = "MSCI USA ESG Select ETF Vs Portfolio"
+    ax[0].set_ylabel("Portfolio")
+    ax[0].set_xlabel("Timeframe")
+    ax[0].tick_params(axis='x', rotation=45)
+
+    ax[1].plot(benchmark['CreatedDate'], benchmark['Invested_Value'])
+    
+    ax[1].set_ylabel("Benchmark")
+    ax[1].set_xlabel("Timeframe")
+    ax[1].tick_params(axis='x', rotation=45)
+    fig.autofmt_xdate()
+    plt.savefig(img,format='png')
+    plot_url = base64.b64encode(img.getvalue()).decode('utf8')
+    return(plot_url)
+
 @app.route('/portfolio/<name>')
 def show_portfolio(name):
    basedir = os.path.abspath(os.path.dirname(__file__))
@@ -44,16 +111,24 @@ def show_portfolio(name):
    tickers = portfolio['Ticker'].unique()
    data = pd.DataFrame()
    data_benchmark = pd.DataFrame()
+   data_portfolio = pd.DataFrame()
+
    invested_value_bench = benchmark.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].iloc[0]
    current_value_bench = benchmark.query('CreatedDate ==\'' + str(maxDate) + '\'')['Invested_Value'].iloc[0]
    data_benchmark = data_benchmark.append({'Invested_Value':invested_value_bench,'Current_Value':current_value_bench},ignore_index=True)
+
+   invested_value_port = portfolio.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].sum()
+   current_value_port = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\'')['Invested_Value'].sum()
+   data_portfolio = data_portfolio.append({'Invested_Value':invested_value_port,'Current_Value':current_value_port},ignore_index=True)
+
    for ticker in tickers:
         invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\' and Ticker ==\'' + ticker + '\'')['Invested_Value'].iloc[0]
         current_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Invested_Value'].iloc[0]
         climate_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Climate'].iloc[0]
         data = data.append({'Ticker':ticker,'Invested_Value': invested_value,'Current_Value':current_value,'Climate': climate_value},ignore_index=True)
 
-   return render_template('portfolio.html', portfolio_data=data.to_dict(orient='records'),benchmark_data=data_benchmark.to_dict(orient='records'),title='ESG Portfolio')
+   plot_url = show_portfolio_plot(name)
+   return render_template('portfolio.html', portfolio_data=data.to_dict(orient='records'),benchmark_data=data_benchmark.to_dict(orient='records'),plot_url1=plot_url,data_portfolio=data_portfolio.to_dict(orient='records'),plot_url2=portfolio_returns_calculation(name),title='ESG Portfolio')
 
 
    #return jsonify(WORDS)
