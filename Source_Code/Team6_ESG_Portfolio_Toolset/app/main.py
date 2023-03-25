@@ -17,6 +17,10 @@ app = Flask(__name__)
 def show():
    return 'Portfolio'
 
+@app.route('/model/parameters')
+def show_model_parameters():
+    return render_template("modelparameters.html")
+
 @app.route('/model', methods =["GET", "POST"])
 def gfg():
     if request.method == "POST":
@@ -97,6 +101,15 @@ def portfolio_returns_calculation(name):
     plt.savefig(img,format='png')
     plot_url = base64.b64encode(img.getvalue()).decode('utf8')
     return(plot_url)
+
+@app.route('/portfolio/modify', methods =["GET", "POST"])
+def show_portfolio_modifymain():
+    if request.method == "POST":
+       grate = request.form.get("port_id")
+       drate = request.form.get("counter_id")
+       plot_url1, plot_url2,portfolio_data, benchmark_data, data_portfolio = show_portfolio_data(grate)
+       return render_template('modifyportfolio.html', portfolio_id = grate, counterparty_id = drate,title='ESG Portfolio')
+    return render_template('modifyportfoliomain.html',title='ESG Portfolio Toolkit')
 
 @app.route('/portfolio/main', methods =["GET", "POST"])
 def show_portfolio_main():

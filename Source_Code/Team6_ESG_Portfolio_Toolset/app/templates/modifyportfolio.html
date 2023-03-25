@@ -40,42 +40,7 @@
             </nav>
         </div>
         {% block content %}
-        <form action="{{ url_for("show_portfolio_main")}}" method="post">
-            
-            
-        <div class="modal-body row">
-            <label for="counterparty">Select Counterparty:</label>
-        <div class="dropdown">
-            <input type="hidden" id="counter_id" class="hidden_" name="counter_id" value="">
-            <button class="btn btn-secondary dropdown-toggle" id="counterparty" name="counterparty" type="submit" data-toggle="dropdown" aria-expanded="false">
-              Counterparty
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Pacific Investment Management Company LLC</a>
-              <a class="dropdown-item" href="#">Morgan Stanley Mutual Fund Ltd</a>
-            </div>
-          </div>
-        </div>
-        
-        <div class="modal-body row">
-            <label for="portfolio">Select Portfolio:</label>
-            <div class="dropdown">
-                <input type="hidden" id="port_id" class="hidden_" name="port_id" value="">
-                <button class="btn btn-secondary dropdown-toggle" id="portfolio" name="portfolio" type="submit" data-toggle="dropdown" aria-expanded="false">
-                  Portfolio
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">portfolio_sample_1</a>
-                  <a class="dropdown-item" href="#">portfolio_sample_2</a>
-                </div>
-              </div>
-            </div>
-            <div class="modal-body row">
-                <div class="col-md-6">
-                <button type="submit" class="btn btn-primary btn-lg">Show Portfolio</button>
-            </div>
-            </div>
-        </form>
+        <h4>Modify Portfolio : {{ portfolio_id }}</h4>
   {% endblock %}    
         <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -87,11 +52,7 @@
     $(document).ready(function () {
         $('.navbarDropdownMenuLinkModel').dropdown();
       $('.navbarDropdownMenuLinkPortfolio').dropdown();
-        $(".dropdown-menu").on('click', 'a', function(){
-            $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
-  $(this).parents(".dropdown").find('.btn').val($(this).data('value')); 
-  $(this).parents(".dropdown").find('.hidden_').val($(this).text());
-   });
+       
     });
      </script>
 {% endblock %}

@@ -17,9 +17,23 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="/portfolio/main" class="nav-item nav-link active">View Portfolio</a>
-                        <a href="/model" class="nav-item nav-link">Run Model</a>
-                        <a href="/projection/main" class="nav-item nav-link">View Projection</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Portfolio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="/portfolio/main" href="#">View Portfolio</a>
+                              <a class="dropdown-item" href="/portfolio/modify">Modify Portfolio</a>                                </div>
+                          </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Model
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="/model" href="#">Run Model</a>
+                              <a class="dropdown-item" href="/model/parameters">Model Parameters</a>                                </div>
+                          </li>
+                        <a href="/projection/main" class="nav-item nav-link">View Projection</a>                           
                     </div>
                 </div>
             </div>
@@ -101,6 +115,8 @@
       $('#data1').DataTable();
       $('#data2').DataTable();
       $('#data3').DataTable();
+      $('.navbarDropdownMenuLinkModel').dropdown();
+      $('.navbarDropdownMenuLinkPortfolio').dropdown();
     });
   </script>
 {% endblock %}
