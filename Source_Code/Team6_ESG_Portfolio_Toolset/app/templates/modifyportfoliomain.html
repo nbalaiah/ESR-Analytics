@@ -40,23 +40,7 @@
             </nav>
         </div>
         {% block content %}
-        <form action="{{ url_for("show_portfolio_modifymain")}}" method="post">
-            
-            
-        <div class="modal-body row">
-            <label for="counterparty">Select Counterparty:</label>
-        <div class="dropdown">
-            <input type="hidden" id="counter_id" class="hidden_" name="counter_id" value="">
-            <button class="btn btn-secondary dropdown-toggle" id="counterparty" name="counterparty" type="submit" data-toggle="dropdown" aria-expanded="false">
-              Counterparty
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Pacific Investment Management Company LLC</a>
-              <a class="dropdown-item" href="#">Morgan Stanley Mutual Fund Ltd</a>
-            </div>
-          </div>
-        </div>
-        
+        <form action="{{ url_for("show_portfolio_modifymain")}}" method="post">        
         <div class="modal-body row">
             <label for="portfolio">Select Portfolio:</label>
             <div class="dropdown">
@@ -65,8 +49,9 @@
                   Portfolio
                 </button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">portfolio_sample_1</a>
-                  <a class="dropdown-item" href="#">portfolio_sample_2</a>
+                  {% for portfolio in portfolio_list %}
+                  <a class="dropdown-item" href="#">{{ portfolio.Name }}</a>
+                  {% endfor %}
                 </div>
               </div>
             </div>

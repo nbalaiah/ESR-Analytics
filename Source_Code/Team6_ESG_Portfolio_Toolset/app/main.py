@@ -33,7 +33,10 @@ def gfg():
        dict['message'] = increase_temp_model_SAD(portfolio,float(drate),float(grate),int(fyear))
        dict['file'] = portfolio
        return render_template('model_result.html', result=dict,title='ESG Portfolio toolkit')
-    return render_template("model.html")
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
+    portfoliolist = pd.read_csv(portfolio_file)
+    return render_template("model.html",portfolio_list=portfoliolist.to_dict(orient='records'))
 
 def show_portfolio_plot(name):
     basedir = os.path.abspath(os.path.dirname(__file__))
@@ -77,7 +80,7 @@ def portfolio_returns_calculation(name):
     portfolio_grouped = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
 
     benchmark = pd.DataFrame()
-    benchmark_file = os.path.join(basedir, 'data/benchmark.csv')
+    benchmark_file = os.path.join(basedir, 'data/benchmark_{0}.csv'.format(name))
     benchmark = pd.read_csv(benchmark_file)
     portfolio_grouped['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped.sort_values(['CreatedDate'],inplace=True)
@@ -106,10 +109,42 @@ def portfolio_returns_calculation(name):
 def show_portfolio_modifymain():
     if request.method == "POST":
        grate = request.form.get("port_id")
-       drate = request.form.get("counter_id")
        plot_url1, plot_url2,portfolio_data, benchmark_data, data_portfolio = show_portfolio_data(grate)
-       return render_template('modifyportfolio.html', portfolio_id = grate, counterparty_id = drate,title='ESG Portfolio')
-    return render_template('modifyportfoliomain.html',title='ESG Portfolio Toolkit')
+       stocks = pd.DataFrame(portfolio_data)['Ticker']
+       return render_template('modifyportfolio.html',stock_list=stocks, portfolio_id = grate,title='ESG Portfolio')
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
+    portfoliolist = pd.read_csv(portfolio_file)
+    return render_template('modifyportfoliomain.html',portfolio_list=portfoliolist.to_dict(orient='records'),title='ESG Portfolio Toolkit')
+
+def recalculate_benchmark(name, portfoliovalue):
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    benchmark_file = os.path.join(basedir, 'data\\{0}.csv'.format(name))
+    benchmark = pd.read_csv(benchmark_file)
+    minDate = benchmark['CreatedDate'].min()
+    stock_price = benchmark.query('CreatedDate ==\'' + str(minDate) + '\'')['Stock_Price'].iloc[0]
+    qty = math.floor(portfoliovalue/stock_price)
+    benchmark['Invested_Value'] = benchmark['Stock_Price'] * qty
+    benchmark.to_csv(benchmark_file)
+
+def delete_portfolio(name,ticker):
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio_file = os.path.join(basedir, 'data\\{0}.csv'.format(name))
+    portfolio = pd.read_csv(portfolio_file)
+    portfolio['Ticker'].str.replace(' ','')
+    portfolio.drop(portfolio[portfolio['Ticker'].str.contains(ticker.replace(' ',''))].index, inplace = True)
+    minDate = portfolio['CreatedDate'].min()
+    invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].sum()
+    #recalculate_benchmark('benchmark_{0}'.format(name),invested_value)
+    portfolio.to_csv(portfolio_file)
+    return('Successfully deleted the stock {0} from portfolio {1}'.format(ticker,name))
+
+@app.route('/portfolio/delete', methods =["GET", "POST"])
+def delete_from_portfolio():
+    if request.method == "POST":
+        portfolioname = request.form.get("portfolio_id")
+        ticker = request.form.get("delete_stock_id")
+        return render_template('deleteresult.html',result=delete_portfolio(portfolioname,ticker))
 
 @app.route('/portfolio/main', methods =["GET", "POST"])
 def show_portfolio_main():
@@ -118,18 +153,22 @@ def show_portfolio_main():
        drate = request.form.get("counter_id")
        plot_url1, plot_url2,portfolio_data, benchmark_data, data_portfolio = show_portfolio_data(grate)
        return render_template('portfolio.html', portfolio_data=portfolio_data,benchmark_data=benchmark_data,plot_url1=plot_url1,data_portfolio=data_portfolio,plot_url2=plot_url2,title='ESG Portfolio')
-    return render_template('portfoliomain.html',title='ESG Portfolio Toolkit')
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
+    portfoliolist = pd.read_csv(portfolio_file)
+    return render_template('portfoliomain.html',portfolio_list=portfoliolist.to_dict(orient='records'),title='ESG Portfolio Toolkit')
 
 @app.route('/projection/main', methods =["GET", "POST"])
 def show_projection_main():
     if request.method == "POST":
        grate = request.form.get("port_id")
-       drate = request.form.get("counter_id")
        plot_url, projection_data = show_projection_data(grate)
 
-       return render_template('projection.html', projection_data=projection_data,plot_url=plot_url,title='Climate Data Projection')
-
-    return render_template('projectionmain.html',title='ESG Portfolio Toolkit')
+       return render_template('projection.html', projection_data=projection_data,plot_url=plot_url,portfolio_name=grate,title='Climate Data Projection')
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
+    portfoliolist = pd.read_csv(portfolio_file)
+    return render_template('projectionmain.html',portfolio_list=portfoliolist.to_dict(orient='records'),title='ESG Portfolio Toolkit')
 
 @app.route('/portfolio/<name>')
 def show_portfolio(name):  
@@ -139,7 +178,7 @@ def show_portfolio(name):
 def show_portfolio_data(name):
    basedir = os.path.abspath(os.path.dirname(__file__))
    portfolio_file = os.path.join(basedir, 'data/' + name + '.csv')
-   benchmark_file = os.path.join(basedir, 'data/benchmark.csv')
+   benchmark_file = os.path.join(basedir, 'data/benchmark_{0}.csv'.format(name))
    portfolio = pd.read_csv(portfolio_file)
    benchmark = pd.read_csv(benchmark_file)
    portfolio['CreatedDate']= pd.to_datetime(portfolio['CreatedDate'])
@@ -184,6 +223,11 @@ def show_projection_data(name):
     pd_result = pd.DataFrame()
     basedir = os.path.abspath(os.path.dirname(__file__))
     projection_file = os.path.join(basedir, 'data/projected_result_{0}.csv'.format(name))
+    portfolio_file = os.path.join(basedir, 'data/{0}.csv'.format(name))
+    portfolio = pd.read_csv(portfolio_file)
+    portfolio['CreatedDate']= pd.to_datetime(portfolio['CreatedDate'])
+    final_date = portfolio['CreatedDate'].max()
+    year, month, day = str(final_date).split('-')
     projection = pd.read_csv(projection_file)
     projection['CreatedDate']= pd.to_datetime(projection['CreatedDate'])
     maxDate = projection['CreatedDate'].max()
@@ -204,22 +248,25 @@ def show_projection_data(name):
     result_df = pd.read_csv(os.path.join(basedir,"data/result_df_grouped_{0}.csv".format(name)))
     #result_df['CreatedDate']= pd.to_datetime(result_df['CreatedDate'])
     result_df['CreatedDate']= pd.to_datetime(result_df['CreatedDate'])
-    result_df['CreatedMonth'] = result_df['CreatedDate'].dt.month
-    result_df['CreatedYear'] = result_df['CreatedDate'].dt.year
+    #result_df['CreatedMonth'] = result_df['CreatedDate'].dt.month
+    #result_df['CreatedYear'] = result_df['CreatedDate'].dt.year
     
-    result_df.sort_values(['CreatedYear','CreatedMonth'],inplace=True)
-    result_df_grouped = result_df.groupby(['CreatedYear','CreatedMonth'])['Invested_Value'].sum()
+    #result_df.sort_values(['CreatedYear','CreatedMonth'],inplace=True)
+    result_df.sort_values(['CreatedDate'],inplace=True)
+    result_df_grouped = result_df.groupby(['CreatedDate'])['Invested_Value'].sum()
     
     result_df_grouped.to_csv(os.path.join(basedir,"data/result_df_grouped_1_{0}.csv".format(name)))
     result_df_grouped = pd.read_csv(os.path.join(basedir,"data/result_df_grouped_1_{0}.csv".format(name)))
-    result_df_grouped.sort_values(['CreatedYear','CreatedMonth'],inplace=True)
-    result_df_grouped['Created'] = result_df_grouped['CreatedYear'].astype(str) + ' : ' + result_df_grouped['CreatedMonth'].astype(str)
-    
+    result_df_grouped['CreatedDate']= pd.to_datetime(result_df_grouped['CreatedDate'])
+    #result_df_grouped['Created'] = result_df_grouped['CreatedYear'].astype(str) + ' : ' + result_df_grouped['CreatedMonth'].astype(str)
+    past = result_df_grouped['CreatedDate'] <= final_date
+    future = result_df_grouped['CreatedDate'] >= final_date
     fig = plt.figure(figsize=(20, 10))
     ax = fig.add_subplot()
     img = BytesIO()
     #ax.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
-    ax.plot(result_df_grouped.Created, result_df_grouped.Invested_Value)
+    ax.plot(result_df_grouped.CreatedDate[past], result_df_grouped.Invested_Value[past],color='blue')
+    ax.plot(result_df_grouped.CreatedDate[future], result_df_grouped.Invested_Value[future],color='crimson')
     ax.set_ylabel("ROIC")
     ax.set_xlabel("Timeframe")
     #ax.set_xticks(rotation=45)

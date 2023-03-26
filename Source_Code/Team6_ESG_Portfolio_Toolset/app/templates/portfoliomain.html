@@ -65,8 +65,9 @@
                   Portfolio
                 </button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">portfolio_sample_1</a>
-                  <a class="dropdown-item" href="#">portfolio_sample_2</a>
+                  {% for portfolio in portfolio_list %}
+                  <a class="dropdown-item" href="#">{{ portfolio.Name }}</a>
+                  {% endfor %}
                 </div>
               </div>
             </div>

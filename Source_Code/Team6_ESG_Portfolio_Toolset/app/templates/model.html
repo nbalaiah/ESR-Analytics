@@ -49,21 +49,37 @@
             
 <form action="{{ url_for("gfg")}}" method="post">
     <div class="modal-body row">
-        <label for="portfolio">Portfolio:</label>
-
-        <input type="text" id="portfolio" name="portf" placeholder="portfolio_sample_1">
+        <label for="portfolio">Select Portfolio:</label>
+                <div class="dropdown">
+                    <input type="hidden" id="port_id" class="hidden_" name="portf" value="">
+                    <button class="btn btn-secondary dropdown-toggle" id="portfolio" name="portfolio" type="submit" data-toggle="dropdown" aria-expanded="false">
+                      Portfolio
+                    </button>
+                    <div class="dropdown-menu">
+                        {% for portfolio in portfolio_list %}
+                        <a class="dropdown-item" href="#">{{ portfolio.Name }}</a>
+                        {% endfor %}
+                    </div>
+                  </div>
+                </div>
     </div>
 <div class="modal-body row">
+    <div class="col-md-6">
     <label for="DiscountRate">Discount Rate:</label>
     <input type="text" id="DiscountRate" name="drate" placeholder="0.05">
+    </div>
 </div>
 <div class="modal-body row">
+    <div class="col-md-6">
     <label for="GrowthRate">Growth Rate:</label>
     <input type="text" id="GrowthRate" name="grate" placeholder="0.08">
+    </div>
 </div>
 <div class="modal-body row">
+    <div class="col-md-6">
     <label for="ForcastYear">Forecast Year:</label>
     <input type="text" id="ForcastYear" name="fyear" placeholder="2025">
+    </div>
 </div>
 <div class="modal-body row">
     <div class="col-md-6">
@@ -81,6 +97,11 @@
       $('.portfolio').dropdown();
       $('.navbarDropdownMenuLinkModel').dropdown();
       $('.navbarDropdownMenuLinkPortfolio').dropdown();
+      $(".dropdown-menu").on('click', 'a', function(){
+            $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+  $(this).parents(".dropdown").find('.btn').val($(this).data('value')); 
+  $(this).parents(".dropdown").find('.hidden_').val($(this).text());
+   });
     });
   </script>
 {% endblock %}

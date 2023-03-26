@@ -143,12 +143,12 @@ def build_portfolio():
                 else:
                     stock = 0
                 portfolio_final = portfolio_final.append({'Ticker':ticker, 'CreatedDate':date_['CreatedDate'], 'Stock_Price':stock, 'ESGScore': ESGScore}, ignore_index=True)
-    portfolio_final.to_csv('data\\portfolio_sample_1.csv')
+    portfolio_final.to_csv('data\\portfolio_sample_master.csv')
 #build_portfolio()
 
 def add_climate_data_to_portfolio():
     Dict = {}
-    portfolio = pd.read_csv('data\\portfolio_sample_1.csv')
+    portfolio = pd.read_csv('data\portfolio_sample_master.csv')
     climate = pd.read_csv('data\\climate_master.csv')
     for index, row in portfolio.iterrows():
         climate_data_row = climate.query('Ticker ==\'' + row['Ticker'] + '\'')
@@ -157,7 +157,7 @@ def add_climate_data_to_portfolio():
         print( Dict[row['Ticker']] )
         portfolio.at[index,'Climate']=','.join(climate_data)
     print(Dict)
-    portfolio.to_csv('data\\portfolio_sample_1.csv')
+    portfolio.to_csv('data\\portfolio_sample_master.csv')
 #add_climate_data_to_portfolio()
 
 def build_benchmark():
@@ -192,7 +192,7 @@ def test_portfolio():
 
 def add_country_data_to_portfolio():
     Dict = {}
-    portfolio = pd.read_csv('data\\portfolio_sample_1.csv')
+    portfolio = pd.read_csv('data\\portfolio_sample_master.csv')
     climate = pd.read_csv('data\\companies_master.csv')
     for index, row in portfolio.iterrows():
         data_row = climate.query('Ticker ==\'' + row['Ticker'] + '\'')
@@ -201,6 +201,46 @@ def add_country_data_to_portfolio():
         portfolio.at[index,'Country']=','.join(country_data)
         portfolio.at[index,'Company']=','.join(company_data)
  
-    portfolio.to_csv('data\\portfolio_sample_1.csv')
+    portfolio.to_csv('data\\portfolio_sample_master.csv')
 
-add_country_data_to_portfolio()
+#add_country_data_to_portfolio()
+
+def recalculate_benchmark(name, portfoliovalue):
+    benchmark = pd.read_csv('data\\{0}.csv'.format(name))
+    minDate = benchmark['CreatedDate'].min()
+    stock_price = benchmark.query('CreatedDate ==\'' + str(minDate) + '\'')['Stock_Price'].iloc[0]
+    qty = math.floor(portfoliovalue/stock_price)
+    benchmark['Invested_Value'] = benchmark['Stock_Price'] * qty
+    benchmark.to_csv('data\\{0}.csv'.format(name))
+
+def delete_portfolio(name,ticker):
+    portfolio = pd.read_csv('data\\{0}.csv'.format(name))
+    portfolio.drop(portfolio[portfolio['Ticker'].str.contains(ticker)].index, inplace = True)
+    minDate = portfolio['CreatedDate'].min()
+    invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].sum()
+    recalculate_benchmark('benchmark_{0}'.format(name),invested_value)
+    portfolio.to_csv('data\\{0}.csv'.format(name))
+
+#delete_portfolio('portfolio_sample_delete_test','STNE')
+
+def add_to_portfolio(name,ticker):
+    portfolio = pd.read_csv('data\\{0}.csv'.format(name))
+    portfolio_master = pd.read_csv('data\\{0}.csv'.format('portfolio_sample_master'))
+    existsData = portfolio.query('Ticker ==\'' + ticker + '\'')
+    if existsData.empty == True:
+        portfolio = portfolio.append(portfolio_master.query('Ticker ==\'' + ticker + '\''))
+        msg = 'Stock added to the portfolio successfully!!'
+    else:
+        msg = 'Stock already exists in the portfolio!!'
+    portfolio.to_csv('data\\{0}.csv'.format(name))
+    minDate = portfolio['CreatedDate'].min()
+    invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].sum()
+    recalculate_benchmark('benchmark_{0}'.format(name),invested_value)
+    return msg
+
+#build_portfolio()
+#add_climate_data_to_portfolio()
+#add_country_data_to_portfolio()
+delete_portfolio('portfolio_sample_delete_test','BDL')
+msg = add_to_portfolio('portfolio_sample_delete_test','BDL')
+print(msg)
