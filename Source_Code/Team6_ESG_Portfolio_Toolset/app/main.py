@@ -80,8 +80,13 @@ def portfolio_returns_calculation(name):
     portfolio_grouped = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
 
     benchmark = pd.DataFrame()
-    benchmark_file = os.path.join(basedir, 'data/benchmark_{0}.csv'.format(name))
-    benchmark = pd.read_csv(benchmark_file)
+    try:
+        benchmark_file = os.path.join(basedir, 'data/benchmark_{0}.csv'.format(name))
+        benchmark = pd.read_csv(benchmark_file)
+    except:
+        benchmark_file = os.path.join(basedir, 'data/benchmark.csv'.format(name))
+        benchmark = pd.read_csv(benchmark_file)
+    
     portfolio_grouped['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped.sort_values(['CreatedDate'],inplace=True)
     portfolio_grouped['ROIC'] = portfolio_grouped['Invested_Value']
@@ -117,6 +122,15 @@ def show_portfolio_modifymain():
     portfoliolist = pd.read_csv(portfolio_file)
     return render_template('modifyportfoliomain.html',portfolio_list=portfoliolist.to_dict(orient='records'),title='ESG Portfolio Toolkit')
 
+def add_to_portfolio_list(name):
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
+    portfoliolist = pd.read_csv(portfolio_file)
+    res = portfoliolist.query('Name ==\'' + name + '\'')
+    if res.empty == True:
+        portfoliolist = portfoliolist.append({'Name': name},ignore_index=True)
+        portfoliolist.to_csv(portfolio_file)
+
 def recalculate_benchmark(name, portfoliovalue):
     basedir = os.path.abspath(os.path.dirname(__file__))
     benchmark_file = os.path.join(basedir, 'data\\{0}.csv'.format(name))
@@ -127,24 +141,27 @@ def recalculate_benchmark(name, portfoliovalue):
     benchmark['Invested_Value'] = benchmark['Stock_Price'] * qty
     benchmark.to_csv(benchmark_file)
 
-def delete_portfolio(name,ticker):
+def delete_portfolio(name,to,ticker):
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio_file = os.path.join(basedir, 'data\\{0}.csv'.format(name))
+    to_portfolio_file = os.path.join(basedir, 'data\\{0}.csv'.format(to))
     portfolio = pd.read_csv(portfolio_file)
     portfolio['Ticker'].str.replace(' ','')
     portfolio.drop(portfolio[portfolio['Ticker'].str.contains(ticker.replace(' ',''))].index, inplace = True)
     minDate = portfolio['CreatedDate'].min()
     invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].sum()
     #recalculate_benchmark('benchmark_{0}'.format(name),invested_value)
-    portfolio.to_csv(portfolio_file)
+    add_to_portfolio_list(to)
+    portfolio.to_csv(to_portfolio_file)
     return('Successfully deleted the stock {0} from portfolio {1}'.format(ticker,name))
 
 @app.route('/portfolio/delete', methods =["GET", "POST"])
 def delete_from_portfolio():
     if request.method == "POST":
         portfolioname = request.form.get("portfolio_id")
+        toportfolioname = request.form.get("toportfolio")
         ticker = request.form.get("delete_stock_id")
-        return render_template('deleteresult.html',result=delete_portfolio(portfolioname,ticker))
+        return render_template('deleteresult.html',result=delete_portfolio(portfolioname,toportfolioname,ticker))
 
 @app.route('/portfolio/main', methods =["GET", "POST"])
 def show_portfolio_main():
@@ -178,9 +195,14 @@ def show_portfolio(name):
 def show_portfolio_data(name):
    basedir = os.path.abspath(os.path.dirname(__file__))
    portfolio_file = os.path.join(basedir, 'data/' + name + '.csv')
-   benchmark_file = os.path.join(basedir, 'data/benchmark_{0}.csv'.format(name))
+   try:
+       benchmark_file = os.path.join(basedir, 'data/benchmark_{0}.csv'.format(name))
+       benchmark = pd.read_csv(benchmark_file)
+   except:
+       benchmark_file = os.path.join(basedir, 'data/benchmark.csv'.format(name))
+       benchmark = pd.read_csv(benchmark_file)
    portfolio = pd.read_csv(portfolio_file)
-   benchmark = pd.read_csv(benchmark_file)
+   #benchmark = pd.read_csv(benchmark_file)
    portfolio['CreatedDate']= pd.to_datetime(portfolio['CreatedDate'])
    benchmark['CreatedDate']= pd.to_datetime(benchmark['CreatedDate'])
    maxDate = portfolio['CreatedDate'].max()
