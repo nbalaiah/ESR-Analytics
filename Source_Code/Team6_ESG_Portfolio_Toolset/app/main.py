@@ -10,25 +10,47 @@ import matplotlib.dates as mdates
 from datetime import date
 from datetime import datetime
 import random
+from logging.config import dictConfig
 
 app = Flask(__name__)
 
+dictConfig({
+    'version': 1,
+    'formatters': {'default': {
+        'format': '[%(asctime)s] %(levelname)s in %(module)s: %(message)s',
+    }},
+    'handlers': {'wsgi': {
+        'class': 'logging.StreamHandler',
+        'stream': 'ext://flask.logging.wsgi_errors_stream',
+        'formatter': 'default'
+    }},
+    'root': {
+        'level': 'INFO',
+        'handlers': ['wsgi']
+    }
+})
+
 @app.route('/')
 def show():
+   app.logger.info('this is the root folder')
+   #app.logger.error('testing error log')
+   #app.logger.info('testing info log')
    return 'Portfolio'
 
 @app.route('/model/parameters')
 def show_model_parameters():
+    app.logger.info('show model parameters')
     return render_template("modelparameters.html")
 
 @app.route('/model', methods =["GET", "POST"])
 def gfg():
     if request.method == "POST":
+       app.logger.info('run model started')
        grate = request.form.get("grate")
        drate = request.form.get("drate")
        portfolio = request.form.get("portf")
        fyear = request.form.get("fyear")
-       #return "You selected : "+grate  + " " + drate + " " + portfolio+ " " + fyear
+       app.logger.info("You selected : "+grate  + " " + drate + " " + portfolio+ " " + fyear)
        dict = {}
        dict['message'] = increase_temp_model_SAD(portfolio,float(drate),float(grate),int(fyear))
        dict['file'] = portfolio
@@ -36,9 +58,12 @@ def gfg():
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
     portfoliolist = pd.read_csv(portfolio_file)
+    app.logger.info('run model completed')
     return render_template("model.html",portfolio_list=portfoliolist.to_dict(orient='records'))
 
 def show_portfolio_plot(name):
+    app.logger.info(name)
+    app.logger.info('show portfolio plot method to generate portfolio data')
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio = pd.read_csv(os.path.join(basedir,"data\\{0}.csv".format(name)))
     portfolio_grouped = portfolio.groupby(['Country','Company','Ticker','CreatedDate'])['Invested_Value'].agg("sum")
@@ -58,6 +83,7 @@ def show_portfolio_plot(name):
     portfolio_grouped_ESG = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_esg_{0}.csv".format(name)))
     portfolio_grouped_ESG['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped_ESG.sort_values(['CreatedDate'],inplace=True)
+    app.logger.info('generating the plot')
     img = BytesIO()
     fig, ax = plt.subplots(nrows=2, ncols=1)
     plt.title = "Invested Amount Vs ESG Score"
@@ -76,6 +102,8 @@ def show_portfolio_plot(name):
     return(plot_url)
 
 def portfolio_returns_calculation(name):
+    app.logger.info('portfolio returns calculation method entered')
+    app.logger.info(name)
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio_grouped = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
 
@@ -90,7 +118,7 @@ def portfolio_returns_calculation(name):
     portfolio_grouped['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped.sort_values(['CreatedDate'],inplace=True)
     portfolio_grouped['ROIC'] = portfolio_grouped['Invested_Value']
-
+    app.logger.info('portfolio plot generation Benchmark Vs Portfolio')
     img = BytesIO()
     fig, ax = plt.subplots(nrows=2, ncols=1)
     
@@ -112,9 +140,12 @@ def portfolio_returns_calculation(name):
 
 @app.route('/portfolio/modify', methods =["GET", "POST"])
 def show_portfolio_modifymain():
+    app.logger.info('show portfolio modify main entered')
     if request.method == "POST":
        grate = request.form.get("port_id")
+       app.logger.info('portfolio id: ' + grate)
        modifyaction = request.form.get("rdModify")
+       app.logger.info('action: ' + modifyaction)
        plot_url1, plot_url2,portfolio_data, benchmark_data, data_portfolio = show_portfolio_data(grate)
        stocks = pd.DataFrame(portfolio_data)['Ticker']
        if modifyaction == 'delete':
@@ -132,6 +163,7 @@ def show_portfolio_modifymain():
     return render_template('modifyportfoliomain.html',portfolio_list=portfoliolist.to_dict(orient='records'),title='ESG Portfolio Toolkit')
 
 def add_to_portfolio_list(name):
+    app.logger.info('add to portfolio list entered')
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
     portfoliolist = pd.read_csv(portfolio_file)
@@ -139,6 +171,7 @@ def add_to_portfolio_list(name):
     if res.empty == True:
         portfoliolist = portfoliolist.append({'Name': name},ignore_index=True)
         portfoliolist.to_csv(portfolio_file)
+        app.logger.info('portfolio added successfully to the master list')
 
 def recalculate_benchmark(name, portfoliovalue):
     basedir = os.path.abspath(os.path.dirname(__file__))
@@ -151,6 +184,7 @@ def recalculate_benchmark(name, portfoliovalue):
     benchmark.to_csv(benchmark_file)
 
 def delete_portfolio(name,to,ticker):
+    app.logger.info('delete stock from portfolio entered')
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio_file = os.path.join(basedir, 'data\\{0}.csv'.format(name))
     to_portfolio_file = os.path.join(basedir, 'data\\{0}.csv'.format(to))
@@ -162,6 +196,7 @@ def delete_portfolio(name,to,ticker):
     #recalculate_benchmark('benchmark_{0}'.format(name),invested_value)
     add_to_portfolio_list(to)
     portfolio.to_csv(to_portfolio_file)
+    app.logger.info('Successfully deleted the stock {0} from portfolio {1}'.format(ticker,name))
     return('Successfully deleted the stock {0} from portfolio {1}'.format(ticker,name))
 
 def _add_to_portfolio(name,to,ticker):
@@ -180,6 +215,7 @@ def _add_to_portfolio(name,to,ticker):
     #minDate = portfolio['CreatedDate'].min()
     #invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].sum()
     #recalculate_benchmark('benchmark_{0}'.format(name),invested_value)
+    app.logger.info(msg)
     return msg
 
 @app.route('/portfolio/add',methods =["GET", "POST"])
@@ -200,6 +236,7 @@ def delete_from_portfolio():
 
 @app.route('/portfolio/main', methods =["GET", "POST"])
 def show_portfolio_main():
+    app.logger.info('show portfolio main entered')
     if request.method == "POST":
        grate = request.form.get("port_id")
        drate = request.form.get("counter_id")
@@ -212,6 +249,7 @@ def show_portfolio_main():
 
 @app.route('/projection/main', methods =["GET", "POST"])
 def show_projection_main():
+    app.logger.info('show projection main entered')
     if request.method == "POST":
        grate = request.form.get("port_id")
        plot_url, projection_data = show_projection_data(grate)
@@ -224,10 +262,13 @@ def show_projection_main():
 
 @app.route('/portfolio/<name>')
 def show_portfolio(name):  
+   app.logger.info('show portfolio entered')
+   app.logger.info(name)
    plot_url1, plot_url2,portfolio_data, benchmark_data, data_portfolio = show_portfolio_data(name)
    return render_template('portfolio.html', portfolio_data=portfolio_data,benchmark_data=benchmark_data,plot_url1=plot_url1,data_portfolio=data_portfolio,plot_url2=plot_url2,title='ESG Portfolio')
 
 def show_portfolio_data(name):
+   app.logger.info('show portfolio data entered')
    basedir = os.path.abspath(os.path.dirname(__file__))
    portfolio_file = os.path.join(basedir, 'data/' + name + '.csv')
    try:
@@ -236,6 +277,7 @@ def show_portfolio_data(name):
    except:
        benchmark_file = os.path.join(basedir, 'data/benchmark.csv'.format(name))
        benchmark = pd.read_csv(benchmark_file)
+   app.logger.info('benchmark data loaded')
    portfolio = pd.read_csv(portfolio_file)
    #benchmark = pd.read_csv(benchmark_file)
    portfolio['CreatedDate']= pd.to_datetime(portfolio['CreatedDate'])
@@ -246,7 +288,7 @@ def show_portfolio_data(name):
    data = pd.DataFrame()
    data_benchmark = pd.DataFrame()
    data_portfolio = pd.DataFrame()
-
+   app.logger.info('portfolio data loaded')
    invested_value_bench = benchmark.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].iloc[0]
    current_value_bench = benchmark.query('CreatedDate ==\'' + str(maxDate) + '\'')['Invested_Value'].iloc[0]
    data_benchmark = data_benchmark.append({'Invested_Value':invested_value_bench,'Current_Value':current_value_bench},ignore_index=True)
