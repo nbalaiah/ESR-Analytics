@@ -1,0 +1,11 @@
+{
+    "api_settings":{
+        "url": "http://localhost:8082/api/"
+    },
+    "database":{
+        "MYSQL_HOST":"localhost",
+        "MYSQL_USER": "user_name",
+        "MYSQL_PASSWORD":"password",
+        "MYSQL_DB":"database_name"
+    }
+}
