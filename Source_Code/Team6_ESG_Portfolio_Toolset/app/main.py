@@ -314,20 +314,25 @@ def show_portfolio_data(name):
 
 @app.route('/projection/<name>')
 def show_projection(name):
+    app.logger.info('show projection entered')
     plot_url, projection_data = show_projection_data(name)
-
+    app.logger.info('projecton data loaded')
     return render_template('projection.html', projection_data=projection_data,plot_url=plot_url,title='Climate Data Projection')
 
 @app.route('/projection/compare', methods =["GET", "POST"])
 def compare_projection():
+    app.logger.info('compare projection entered')
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
     portfoliolist = pd.read_csv(portfolio_file)
+    app.logger.info('portfolio list loaded')
     if request.method == "POST":
        port1 = request.form.get("port1_id")
        port2 = request.form.get("port2_id")
        plot_url1, projection_data1 = show_projection_data(port1)
+       app.logger.info('projection loaded for ' + port1) 
        plot_url2, projection_data2 = show_projection_data(port2)
+       app.logger.info('projection loaded for ' + port2)
        return render_template('compareprojection.html',port1 = port1, port2=port2,portfolio_list=portfoliolist.to_dict(orient='records'), projection_data1=projection_data1,plot_url1=plot_url1,projection_data2=projection_data2,plot_url2=plot_url2,title='Climate Data Projection')
     return render_template('compareprojection.html',portfolio_list=portfoliolist.to_dict(orient='records'),title='Climate Data Projection')
 
@@ -335,9 +340,11 @@ def compare_projection():
 def show_projection_data(name):
     pd_result = pd.DataFrame()
     basedir = os.path.abspath(os.path.dirname(__file__))
+    app.logger.info('projection result loaded')
     projection_file = os.path.join(basedir, 'data/projected_result_{0}.csv'.format(name))
     portfolio_file = os.path.join(basedir, 'data/{0}.csv'.format(name))
     portfolio = pd.read_csv(portfolio_file)
+    app.logger.info('portfolio data loaded')
     portfolio['CreatedDate']= pd.to_datetime(portfolio['CreatedDate'])
     final_date = portfolio['CreatedDate'].max()
     year, month, day = str(final_date).split('-')
@@ -347,12 +354,13 @@ def show_projection_data(name):
     minDate = projection['CreatedDate'].min()
     pd_result_2050 = projection.query('CreatedDate ==\''+str(maxDate)+'\'')
     pd_result_invested = projection.query('CreatedDate ==\''+str(minDate)+'\'')
+    app.logger.info('iterating through projection result')
     for index, row in pd_result_2050.iterrows():       
         invested_amount = projection.query('CreatedDate ==\''+str(minDate)+'\' and Ticker ==\'' + row['Ticker']+ '\'')['Invested_Value'].iloc[0]
         print(invested_amount)
         pd_result = pd_result.append({'Ticker':row['Ticker'],'Invested_Value': invested_amount,'_2050_Value':row['Invested_Value'],'Company':row['Company'],'Country':row['Country']},ignore_index=True)
     #return pd_result.to_html()
-
+    app.logger.info('Grouping invested value based on date')
     result_df = pd.DataFrame()
     projection_grouped = projection.groupby(['CreatedDate'])['Invested_Value'].sum()
     result_df = projection_grouped
@@ -372,6 +380,7 @@ def show_projection_data(name):
     result_df_grouped = pd.read_csv(os.path.join(basedir,"data/result_df_grouped_1_{0}.csv".format(name)))
     result_df_grouped['CreatedDate']= pd.to_datetime(result_df_grouped['CreatedDate'])
     #result_df_grouped['Created'] = result_df_grouped['CreatedYear'].astype(str) + ' : ' + result_df_grouped['CreatedMonth'].astype(str)
+    app.logger.info('coloring the plots based on history vs forecast')
     past = result_df_grouped['CreatedDate'] <= final_date
     future = result_df_grouped['CreatedDate'] >= final_date
     fig = plt.figure(figsize=(20, 10))
@@ -393,6 +402,7 @@ def show_projection_data(name):
 
 
 def calculate_SAD(latitude, CreatedDate):
+    app.logger.info('SAD calculation entered')
     latitude = float(latitude)
     year, month, day = CreatedDate.split('-')
     day=day[:2]
@@ -404,16 +414,18 @@ def calculate_SAD(latitude, CreatedDate):
     return(SAD/(24*100))
 
 def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
+    app.logger.info('model calculation entered')
     vol_list = [(-0.10/252) * 30, 0,(0.10/252) * 30  ]
+    app.logger.info('volatility loaded')
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio = pd.DataFrame()
     portfolio_file = os.path.join(basedir, 'data/' + portfolioname + '.csv')
     portfolio = pd.read_csv(portfolio_file)
-
+    app.logger.info('climate data loaded')
     climate_file = os.path.join(basedir, 'data/climate_master.csv')
     climate_data = pd.DataFrame()
     climate_data = pd.read_csv(climate_file)
-
+    app.logger.info('correlation data loaded')
     corr_file = os.path.join(basedir, 'data/corr_master.csv')
     corr_data = pd.DataFrame()
     corr_q = pd.read_csv(corr_file)
@@ -434,7 +446,7 @@ def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
     a_df_temp.drop(a_df_temp.index,inplace=True) 
     start_date_projection = pd.to_datetime(portfolio['CreatedDate']).max()
     last_date = date(year, 12, 31)
-    
+    app.logger.info('iterating through the list of stocks to forecast')
     for index,row in a_df.iterrows():
         print(row)
         precond_df = portfolio.query('Country ==\''+ row['Country'] + '\' and Ticker==\'' + row['Ticker'] + '\'')
@@ -447,7 +459,7 @@ def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
         #noOfMonths = r.months
         precond_df = precond_df.query('CreatedDate ==\'' + str(start_date_projection)+ '\'')
         precond_df=precond_df.filter(items=['Company','Country','Ticker','Quantity','CreatedDate','Stock_Price','Invested_Value'])
-        
+        app.logger.info('the no of months to forecast ' + str(noOfMonths))
         #a_df_temp = a_df_temp.append(precond_df)
         previousMonthDate = start_date_projection
         another_temp = precond_df.query('CreatedDate ==\'' + str(previousMonthDate)+ '\' and Ticker ==\'' +row['Ticker']+ '\'')
@@ -462,9 +474,11 @@ def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
                 #another_temp = a_df_temp.query('CreatedDate ==\'' + str(pd.to_datetime((a_df_temp['CreatedDate']).max()))+ '\'')
                 #prevStockPrice = another_temp['Stock_Price'].iloc[0]
                 continue
+            app.logger.info('get the previous stock value')
             query_fossil = climate_data.query('Ticker ==\'' + row['Ticker'] + '\'')
             print(query_fossil)
             vol = random.choice(vol_list)
+            app.logger.info('calculate the new stock value')
             if query_fossil.empty == False and query_fossil['Ticker'].iloc[0] == row['Ticker']:
                 query_corr= corr_data.query('Country ==\'' + row['Country']+ '\'')
                 query_corr = query_corr[query_corr['Measure'].str.contains("Fossil")]
@@ -479,6 +493,7 @@ def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
                 newStockPrice = prevStockPrice * (1 - discount_rate + vol + growth_rate)
             a_df_temp = a_df_temp.append({'Company':row['Company'],'Country':row['Country'],'Ticker':row['Ticker'],'Quantity':row['Quantity'], 'CreatedDate':nextMonthDate,'Stock_Price':newStockPrice,'Invested_Value':row['Quantity'] * newStockPrice}, ignore_index=True)
             print(prevStockPrice)
+            app.logger.info('update the new stock value and continue the loop')
             previousMonthDate = nextMonthDate
     print(a_df_temp)
     a_df_temp = a_df_temp.append(portfolio)
