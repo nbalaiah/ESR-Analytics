@@ -276,6 +276,20 @@ def show_projection(name):
 
     return render_template('projection.html', projection_data=projection_data,plot_url=plot_url,title='Climate Data Projection')
 
+@app.route('/projection/compare', methods =["GET", "POST"])
+def compare_projection():
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    portfolio_file = os.path.join(basedir, 'data/portfolio_list.csv')
+    portfoliolist = pd.read_csv(portfolio_file)
+    if request.method == "POST":
+       port1 = request.form.get("port1_id")
+       port2 = request.form.get("port2_id")
+       plot_url1, projection_data1 = show_projection_data(port1)
+       plot_url2, projection_data2 = show_projection_data(port2)
+       return render_template('compareprojection.html',port1 = port1, port2=port2,portfolio_list=portfoliolist.to_dict(orient='records'), projection_data1=projection_data1,plot_url1=plot_url1,projection_data2=projection_data2,plot_url2=plot_url2,title='Climate Data Projection')
+    return render_template('compareprojection.html',portfolio_list=portfoliolist.to_dict(orient='records'),title='Climate Data Projection')
+
+
 def show_projection_data(name):
     pd_result = pd.DataFrame()
     basedir = os.path.abspath(os.path.dirname(__file__))
