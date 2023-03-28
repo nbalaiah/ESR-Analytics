@@ -70,22 +70,22 @@ def show_portfolio_plot(name):
     app.logger.info(name)
     app.logger.info('show portfolio plot method to generate portfolio data')
     basedir = os.path.abspath(os.path.dirname(__file__))
-    portfolio = pd.read_csv(os.path.join(basedir,"data\\{0}.csv".format(name)))
+    portfolio = pd.read_csv(os.path.join(basedir,"data/{0}.csv".format(name)))
     portfolio_grouped = portfolio.groupby(['Country','Company','Ticker','CreatedDate'])['Invested_Value'].agg("sum")
     #print(portfolio_grouped)
-    #portfolio_grouped.to_csv("data\\portfolio_grouped.csv")
+    #portfolio_grouped.to_csv("data/portfolio_grouped.csv")
     portfolio_grouped = portfolio.groupby(['CreatedDate'])['Invested_Value'].agg("sum")
 
     portfolio_grouped_ESG = portfolio.groupby(['CreatedDate'])['ESGScore'].agg("mean")
     
 
-    portfolio_grouped.to_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
-    portfolio_grouped = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
+    portfolio_grouped.to_csv(os.path.join(basedir,"data/portfolio_grouped_stock_{0}.csv".format(name)))
+    portfolio_grouped = pd.read_csv(os.path.join(basedir,"data/portfolio_grouped_stock_{0}.csv".format(name)))
     portfolio_grouped['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped.sort_values(['CreatedDate'],inplace=True)
     
-    portfolio_grouped_ESG.to_csv(os.path.join(basedir,"data\\portfolio_grouped_esg_{0}.csv".format(name)))
-    portfolio_grouped_ESG = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_esg_{0}.csv".format(name)))
+    portfolio_grouped_ESG.to_csv(os.path.join(basedir,"data/portfolio_grouped_esg_{0}.csv".format(name)))
+    portfolio_grouped_ESG = pd.read_csv(os.path.join(basedir,"data/portfolio_grouped_esg_{0}.csv".format(name)))
     portfolio_grouped_ESG['CreatedDate']= pd.to_datetime(portfolio_grouped['CreatedDate'])
     portfolio_grouped_ESG.sort_values(['CreatedDate'],inplace=True)
     app.logger.info('generating the plot')
@@ -110,7 +110,7 @@ def portfolio_returns_calculation(name):
     app.logger.info('portfolio returns calculation method entered')
     app.logger.info(name)
     basedir = os.path.abspath(os.path.dirname(__file__))
-    portfolio_grouped = pd.read_csv(os.path.join(basedir,"data\\portfolio_grouped_stock_{0}.csv".format(name)))
+    portfolio_grouped = pd.read_csv(os.path.join(basedir,"data/portfolio_grouped_stock_{0}.csv".format(name)))
 
     benchmark = pd.DataFrame()
     try:
