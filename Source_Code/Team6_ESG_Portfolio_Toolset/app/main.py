@@ -16,9 +16,6 @@ import requests
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-with open(basedir + '\config.json') as config_file:
-    config_data = json.load(config_file)
-
 app = Flask(__name__)
 
 dictConfig({
@@ -40,8 +37,6 @@ dictConfig({
 @app.route('/')
 def show():
    app.logger.info('this is the root folder')
-   api_settings = config_data['api_settings']
-   apiurl = api_settings['url']
    #app.logger.info()
    #app.logger.info('testing info log')
    #res = requests.get(apiurl + 'portfolio/get/portfolio_sample_1')
