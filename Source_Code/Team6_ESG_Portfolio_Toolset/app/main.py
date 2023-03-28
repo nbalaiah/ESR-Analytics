@@ -180,7 +180,7 @@ def add_to_portfolio_list(name):
 
 def recalculate_benchmark(name, portfoliovalue):
     basedir = os.path.abspath(os.path.dirname(__file__))
-    benchmark_file = os.path.join(basedir, 'data\\{0}.csv'.format(name))
+    benchmark_file = os.path.join(basedir, 'data/{0}.csv'.format(name))
     benchmark = pd.read_csv(benchmark_file)
     minDate = benchmark['CreatedDate'].min()
     stock_price = benchmark.query('CreatedDate ==\'' + str(minDate) + '\'')['Stock_Price'].iloc[0]
@@ -191,8 +191,8 @@ def recalculate_benchmark(name, portfoliovalue):
 def delete_portfolio(name,to,ticker):
     app.logger.info('delete stock from portfolio entered')
     basedir = os.path.abspath(os.path.dirname(__file__))
-    portfolio_file = os.path.join(basedir, 'data\\{0}.csv'.format(name))
-    to_portfolio_file = os.path.join(basedir, 'data\\{0}.csv'.format(to))
+    portfolio_file = os.path.join(basedir, 'data/{0}.csv'.format(name))
+    to_portfolio_file = os.path.join(basedir, 'data/{0}.csv'.format(to))
     portfolio = pd.read_csv(portfolio_file)
     portfolio['Ticker'].str.replace(' ','')
     portfolio.drop(portfolio[portfolio['Ticker'].str.contains(ticker.replace(' ',''))].index, inplace = True)
@@ -206,16 +206,16 @@ def delete_portfolio(name,to,ticker):
 
 def _add_to_portfolio(name,to,ticker):
     basedir = os.path.abspath(os.path.dirname(__file__))
-    portfolio_file = os.path.join(basedir, 'data\\{0}.csv'.format(name))
+    portfolio_file = os.path.join(basedir, 'data/{0}.csv'.format(name))
     portfolio = pd.read_csv(portfolio_file)
-    portfolio_master = pd.read_csv(os.path.join(basedir,'data\\{0}.csv'.format('portfolio_sample_master')))
+    portfolio_master = pd.read_csv(os.path.join(basedir,'data/{0}.csv'.format('portfolio_sample_master')))
     existsData = portfolio.query('Ticker ==\'' + ticker + '\'')
     if existsData.empty == True:
         portfolio = portfolio.append(portfolio_master.query('Ticker ==\'' + ticker + '\''))
         msg = 'Stock {0} added to the portfolio {1} successfully!!'.format(ticker,name)
     else:
         msg = 'Stock already exists in the portfolio!!'
-    portfolio_to_file = os.path.join(basedir, 'data\\{0}.csv'.format(to))
+    portfolio_to_file = os.path.join(basedir, 'data/{0}.csv'.format(to))
     portfolio.to_csv(portfolio_to_file)
     #minDate = portfolio['CreatedDate'].min()
     #invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].sum()
