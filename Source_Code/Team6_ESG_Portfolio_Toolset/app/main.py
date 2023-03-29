@@ -12,7 +12,7 @@ from datetime import datetime
 import random
 from logging.config import dictConfig
 import json
-import requests
+#import requests
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
