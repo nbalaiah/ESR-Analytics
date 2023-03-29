@@ -201,8 +201,8 @@ def delete_portfolio(name,to,ticker):
     #recalculate_benchmark('benchmark_{0}'.format(name),invested_value)
     add_to_portfolio_list(to)
     portfolio.to_csv(to_portfolio_file)
-    app.logger.info('Successfully deleted the stock {0} from portfolio {1}'.format(ticker,name))
-    return('Successfully deleted the stock {0} from portfolio {1}'.format(ticker,name))
+    app.logger.info('Successfully deleted the stock {0} from portfolio {1}'.format(ticker,to))
+    return('Successfully deleted the stock {0} from portfolio {1}'.format(ticker,to))
 
 def _add_to_portfolio(name,to,ticker):
     basedir = os.path.abspath(os.path.dirname(__file__))
@@ -212,11 +212,12 @@ def _add_to_portfolio(name,to,ticker):
     existsData = portfolio.query('Ticker ==\'' + ticker + '\'')
     if existsData.empty == True:
         portfolio = portfolio.append(portfolio_master.query('Ticker ==\'' + ticker + '\''))
-        msg = 'Stock {0} added to the portfolio {1} successfully!!'.format(ticker,name)
+        msg = 'Stock {0} added to the portfolio {1} successfully!!'.format(ticker,to)
     else:
         msg = 'Stock already exists in the portfolio!!'
     portfolio_to_file = os.path.join(basedir, 'data/{0}.csv'.format(to))
     portfolio.to_csv(portfolio_to_file)
+    add_to_portfolio_list(to)
     #minDate = portfolio['CreatedDate'].min()
     #invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\'')['Invested_Value'].sum()
     #recalculate_benchmark('benchmark_{0}'.format(name),invested_value)
