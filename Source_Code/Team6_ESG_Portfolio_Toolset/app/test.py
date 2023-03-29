@@ -14,5 +14,6 @@ class TestESGPortfolio(unittest.TestCase):
         actual = len(portfoliolist)
         self.assertEqual(expected, actual, "Test Failed")
 
+
 if __name__ == '__main__':
     unittest.main()
