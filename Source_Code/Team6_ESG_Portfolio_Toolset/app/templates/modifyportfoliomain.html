@@ -49,7 +49,10 @@
         {% block content %}
         <form action="{{ url_for("show_portfolio_modifymain")}}" method="post">        
         <div class="modal-body row">
+          <div class="col-md-4">
             <label for="portfolio">Select Portfolio:</label>
+          </div>
+          <div class="col-md-4">
             <div class="dropdown">
                 <input type="hidden" id="port_id" class="hidden_" name="port_id" value="">
                 <button class="btn btn-secondary dropdown-toggle" id="portfolio" name="portfolio" type="submit" data-toggle="dropdown" aria-expanded="false">
@@ -61,6 +64,7 @@
                   {% endfor %}
                 </div>
               </div>
+          </div>
             </div>
             <div class="modal-body row">
               <div class="form-check">
@@ -77,7 +81,7 @@
               </div>
             </div>
             <div class="modal-body row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                 <button type="submit" class="btn btn-primary btn-lg">Modify Portfolio</button>
                 </div>
                 

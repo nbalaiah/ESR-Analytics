@@ -51,7 +51,10 @@
             
             
         <div class="modal-body row">
+          <div class="col-md-4">
             <label for="counterparty">Select Counterparty:</label>
+          </div>
+          <div class="col-md-4">
         <div class="dropdown">
             <input type="hidden" id="counter_id" class="hidden_" name="counter_id" value="">
             <button class="btn btn-secondary dropdown-toggle" id="counterparty" name="counterparty" type="submit" data-toggle="dropdown" aria-expanded="false">
@@ -62,10 +65,14 @@
               <a class="dropdown-item" href="#">Morgan Stanley Mutual Fund Ltd</a>
             </div>
           </div>
+          </div>
         </div>
         
         <div class="modal-body row">
+          <div class="col-md-4">
             <label for="portfolio">Select Portfolio:</label>
+          </div>
+          <div class="col-md-4">
             <div class="dropdown">
                 <input type="hidden" id="port_id" class="hidden_" name="port_id" value="">
                 <button class="btn btn-secondary dropdown-toggle" id="portfolio" name="portfolio" type="submit" data-toggle="dropdown" aria-expanded="false">
@@ -77,9 +84,10 @@
                   {% endfor %}
                 </div>
               </div>
+              </div>
             </div>
             <div class="modal-body row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                 <button type="submit" class="btn btn-primary btn-lg">Show Portfolio</button>
             </div>
             </div>

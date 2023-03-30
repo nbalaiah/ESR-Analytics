@@ -49,7 +49,10 @@
         <form action="{{ url_for("compare_projection")}}" method="post">
         <div class="container">
             <div class="modal-body row">
+              <div class="col-md-4">
                 <label for="portfolio">Select Portfolio 1</label>
+                </div>
+                <div class="col-md-4">
                 <div class="dropdown">
                     <input type="hidden" id="port1_id" class="hidden_" name="port1_id" value="">
                     
@@ -63,8 +66,12 @@
                     </div>
                   </div>
                 </div>
+                </div>
                 <div class="modal-body row">
+                  <div class="col-md-4">
                     <label for="portfolio">Select Portfolio 2</label>
+                  </div>
+                  <div class="col-md-4">
                     <div class="dropdown">
                         <input type="hidden" id="port2_id" class="hidden_" name="port2_id" value="">
                         
@@ -77,13 +84,25 @@
                           {% endfor %}
                         </div>
                       </div>
+                  </div>
                     </div>
                     <div class="modal-body row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                         <button type="submit" class="btn btn-primary btn-lg">Compare</button>
                         </div>
                         
                     </div>
+                    <div class="modal-body row">
+                      <div class="col-md-6">
+                          <h4>Projection Plot 1 : {{ port1 }}</h4>
+                    <img src="data:image/png;base64, {{ plot_url1 }}" width="500" height="600" alt="Select Portfolio to view the projection">
+                        </div>
+                        <div class="col-md-6">
+                          <h4>Projection Plot 2 : {{ port2 }}</h4>
+                    <img src="data:image/png;base64, {{ plot_url2 }}" width="500" height="600" alt="Select Portfolio to view the projection">
+                        </div>
+                      </div>
+                  
             <div class="modal-body row">
               
     <div class="col-md-6"> 
@@ -139,16 +158,6 @@
         </table>       
 </div>
 </div>
-<div class="modal-body row">
-    <div class="col-md-6">
-        <h4>Projection Plot : {{ port1 }}</h4>
-  <img src="data:image/png;base64, {{ plot_url1 }}" width="500" height="600" alt="Select Portfolio to view the projection">
-      </div>
-      <div class="col-md-6">
-        <h4>Projection Plot : {{ port2 }}</h4>
-  <img src="data:image/png;base64, {{ plot_url2 }}" width="500" height="600" alt="Select Portfolio to view the projection">
-      </div>
-    </div>
 
   </div>
         </form>

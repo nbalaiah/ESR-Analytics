@@ -56,7 +56,10 @@
             
 <form action="{{ url_for("gfg")}}" method="post">
     <div class="modal-body row">
+      <div class="col-md-4">
         <label for="portfolio">Select Portfolio:</label>
+      </div>
+      <div class="col-md-4">
                 <div class="dropdown">
                     <input type="hidden" id="port_id" class="hidden_" name="portf" value="">
                     <button class="btn btn-secondary dropdown-toggle" id="portfolio" name="portfolio" type="submit" data-toggle="dropdown" aria-expanded="false">
@@ -68,28 +71,37 @@
                         {% endfor %}
                     </div>
                   </div>
+      </div>
                 </div>
     </div>
 <div class="modal-body row">
-    <div class="col-md-6">
+    <div class="col-md-4">
     <label for="DiscountRate">Discount Rate:</label>
+    </div>
+    <div class="col-md-4">
     <input type="text" id="DiscountRate" name="drate" placeholder="0.05">
     </div>
 </div>
 <div class="modal-body row">
-    <div class="col-md-6">
+    <div class="col-md-4">
     <label for="GrowthRate">Growth Rate:</label>
+    </div>
+    <div class="col-md-4">
     <input type="text" id="GrowthRate" name="grate" placeholder="0.08">
     </div>
-</div>
-<div class="modal-body row">
-    <div class="col-md-6">
-    <label for="ForcastYear">Forecast Year:</label>
-    <input type="text" id="ForcastYear" name="fyear" placeholder="2025">
     </div>
 </div>
 <div class="modal-body row">
-    <div class="col-md-6">
+    <div class="col-md-4">
+    <label for="ForcastYear">Forecast Year:</label>
+    </div>
+    <div class="col-md-4">
+    <input type="text" id="ForcastYear" name="fyear" placeholder="2025">
+    </div>
+    </div>
+</div>
+<div class="modal-body row">
+    <div class="col-md-4">
     <button type="submit" class="btn btn-primary btn-lg">Run Model</button>
     </div>
 </div>

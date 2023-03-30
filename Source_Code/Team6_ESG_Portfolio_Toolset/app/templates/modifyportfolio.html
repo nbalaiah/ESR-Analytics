@@ -54,7 +54,10 @@
           <div class="panel-heading">Delete from Portfolio</div>
           <div class="panel-body">
             <div class="modal-body row">
+              <div class="col-md-4">
               <label for="portfolio">Select Stock:</label>
+              </div>
+              <div class="col-md-4">
               <div class="dropdown">
                   <input type="hidden" id="delete_stock_id" class="hidden_" name="delete_stock_id" value="">
                   
@@ -68,14 +71,18 @@
                   </div>
                 </div>
               </div>
+              </div>
               <div class="modal-body row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                 <label for="toportfolio">New Portfolio name</label>
+                </div>
+                <div class="col-md-4">
                 <input type="text" id="toportfolio" name="toportfolio" value={{portfolio_id}}>
+                </div>
                 </div>
             </div>
               <div class="modal-body row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                 <button type="submit" id="btnDelete" class="btn btn-primary btn-lg">Delete</button>
                 </div>
             </div>
