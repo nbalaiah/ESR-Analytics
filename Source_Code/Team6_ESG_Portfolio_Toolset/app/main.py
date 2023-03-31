@@ -1,6 +1,7 @@
 from flask import Flask, redirect, url_for, render_template, jsonify, request
 import os
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 from io import BytesIO
 import base64
@@ -12,7 +13,7 @@ from datetime import datetime
 import random
 from logging.config import dictConfig
 import json
-#import requests
+import requests
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -307,7 +308,9 @@ def show_portfolio_data(name):
         invested_value = portfolio.query('CreatedDate ==\'' + str(minDate) + '\' and Ticker ==\'' + ticker + '\'')['Invested_Value'].iloc[0]
         current_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Invested_Value'].iloc[0]
         climate_value = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['Climate'].iloc[0]
-        data = data.append({'Ticker':ticker,'Invested_Value': invested_value,'Current_Value':current_value,'Climate': climate_value},ignore_index=True)
+        ESGScore = portfolio.query('CreatedDate ==\'' + str(maxDate) + '\' and Ticker ==\'' + ticker + '\'')['ESGScore'].iloc[0]
+        Up = 1 if invested_value > current_value else 0
+        data = data.append({'Ticker':ticker,'Invested_Value': invested_value,'Current_Value':current_value,'Climate': climate_value,'ESGScore': ESGScore,'Up': Up},ignore_index=True)
 
    plot_url1 = show_portfolio_plot(name)
    plot_url2=portfolio_returns_calculation(name)
@@ -363,12 +366,17 @@ def show_projection_data(name):
     app.logger.info('iterating through projection result')
     for index, row in pd_result_2050.iterrows():       
         invested_amount = projection.query('CreatedDate ==\''+str(minDate)+'\' and Ticker ==\'' + row['Ticker']+ '\'')['Invested_Value'].iloc[0]
+        invested_amount_noimpact = projection.query('CreatedDate ==\''+str(minDate)+'\' and Ticker ==\'' + row['Ticker']+ '\'')['Invested_Value_NoImpact'].iloc[0]
         print(invested_amount)
-        pd_result = pd_result.append({'Ticker':row['Ticker'],'Invested_Value': invested_amount,'_2050_Value':row['Invested_Value'],'Company':row['Company'],'Country':row['Country']},ignore_index=True)
+        pd_result = pd_result.append({'Ticker':row['Ticker'],'Invested_Value': invested_amount,'Invested_Value_NoImpact': invested_amount_noimpact,'_2050_Value':row['Invested_Value'],'Company':row['Company'],'Country':row['Country']},ignore_index=True)
     #return pd_result.to_html()
     app.logger.info('Grouping invested value based on date')
     result_df = pd.DataFrame()
-    projection_grouped = projection.groupby(['CreatedDate'])['Invested_Value'].sum()
+    projection['Invested_Value_NoImpact'].fillna(0)
+    projection_grouped = projection.groupby(['CreatedDate']).agg(
+     Invested_Value = ('Invested_Value','sum'),
+     Invested_Value_NoImpact = ('Invested_Value_NoImpact','sum'),
+     ).reset_index()
     result_df = projection_grouped
       
     result_df.to_csv(os.path.join(basedir,"data/result_df_grouped_{0}.csv".format(name)))
@@ -380,8 +388,13 @@ def show_projection_data(name):
     
     #result_df.sort_values(['CreatedYear','CreatedMonth'],inplace=True)
     result_df.sort_values(['CreatedDate'],inplace=True)
-    result_df_grouped = result_df.groupby(['CreatedDate'])['Invested_Value'].sum()
+    #result_df_grouped = result_df.groupby(['CreatedDate'])['Invested_Value'].sum()
     
+    result_df_grouped = result_df.groupby(['CreatedDate']).agg(
+     Invested_Value = ('Invested_Value','sum'),
+     Invested_Value_NoImpact = ('Invested_Value_NoImpact','sum'),
+     ).reset_index()
+
     result_df_grouped.to_csv(os.path.join(basedir,"data/result_df_grouped_1_{0}.csv".format(name)))
     result_df_grouped = pd.read_csv(os.path.join(basedir,"data/result_df_grouped_1_{0}.csv".format(name)))
     result_df_grouped['CreatedDate']= pd.to_datetime(result_df_grouped['CreatedDate'])
@@ -394,6 +407,7 @@ def show_projection_data(name):
     img = BytesIO()
     #ax.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
     ax.plot(result_df_grouped.CreatedDate[past], result_df_grouped.Invested_Value[past],color='blue')
+    ax.plot(result_df_grouped.CreatedDate[future], result_df_grouped.Invested_Value_NoImpact[future],color='blue')
     ax.plot(result_df_grouped.CreatedDate[future], result_df_grouped.Invested_Value[future],color='crimson')
     ax.set_ylabel("ROIC")
     ax.set_xlabel("Timeframe")
@@ -421,8 +435,8 @@ def calculate_SAD(latitude, CreatedDate):
 
 def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
     app.logger.info('model calculation entered')
-    vol_list = [(-0.10/252) * 30, 0,(0.10/252) * 30  ]
-    app.logger.info('volatility loaded')
+    vol_list = [-1, 0, 1 ]
+    app.logger.info('vol randomess loaded')
     basedir = os.path.abspath(os.path.dirname(__file__))
     portfolio = pd.DataFrame()
     portfolio_file = os.path.join(basedir, 'data/' + portfolioname + '.csv')
@@ -438,6 +452,8 @@ def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
     corr_q = corr_q.query('Stock_Price != 1')
     corr_q.update(corr_q.fillna(0))
     corr_data = corr_q
+
+    
 
     output_file = os.path.join(basedir, "data/projected_result_{0}.csv".format(portfolioname))
 
@@ -469,13 +485,25 @@ def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
         #a_df_temp = a_df_temp.append(precond_df)
         previousMonthDate = start_date_projection
         another_temp = precond_df.query('CreatedDate ==\'' + str(previousMonthDate)+ '\' and Ticker ==\'' +row['Ticker']+ '\'')
+
+        app.logger.info('historic volatiltiy of the stock is calculated')
+        TRADING_DAYS = 252
+        returns = np.log(another_temp['Stock_Price']/another_temp['Stock_Price'].shift(1))
+        returns.fillna(0, inplace=True)
+        volatility = returns.rolling(window=TRADING_DAYS).std()*np.sqrt(TRADING_DAYS)
+        vol_val = np.array(volatility).mean()
+        if math.isnan(vol_val):
+            vol_val = (0.10 * 22)/252
+        
         prevStockPrice = another_temp['Stock_Price'].iloc[0]
+        prevStockPrice_noimpact = prevStockPrice
         for month in range (1, noOfMonths):
             nextMonthDate = start_date_projection + relativedelta(months=+month)
             another_temp = a_df_temp.query('CreatedDate ==\'' + str(previousMonthDate)+ '\' and Ticker ==\'' +row['Ticker']+ '\'')
             try:
                 if month != 1:
                     prevStockPrice = another_temp['Stock_Price'].iloc[0]
+
             except:
                 #another_temp = a_df_temp.query('CreatedDate ==\'' + str(pd.to_datetime((a_df_temp['CreatedDate']).max()))+ '\'')
                 #prevStockPrice = another_temp['Stock_Price'].iloc[0]
@@ -494,15 +522,20 @@ def increase_temp_model_SAD(portfolioname,discount_rate,growth_rate, year):
                     corr = query_corr['Stock_Price'].mean()
                     #if isinstance(corr, pd.Series):
                      #   corr = corr['Stock_Price'].mean()
-                newStockPrice = prevStockPrice * (1 - calculate_SAD(row['Latitude'],str(previousMonthDate)) - (corr/12) - discount_rate + vol+ growth_rate)
+                newStockPrice = prevStockPrice * (1 - calculate_SAD(row['Latitude'],str(previousMonthDate)) - (corr/12) - discount_rate + (vol * vol_val) + growth_rate)
             else:
-                newStockPrice = prevStockPrice * (1 - discount_rate + vol + growth_rate)
-            a_df_temp = a_df_temp.append({'Company':row['Company'],'Country':row['Country'],'Ticker':row['Ticker'],'Quantity':row['Quantity'], 'CreatedDate':nextMonthDate,'Stock_Price':newStockPrice,'Invested_Value':row['Quantity'] * newStockPrice}, ignore_index=True)
+                newStockPrice = prevStockPrice * (1 - discount_rate + (vol * vol_val) + growth_rate)
+            
+            newStockPrice_noimpact = prevStockPrice_noimpact * (1 - discount_rate + (vol * vol_val) + growth_rate)
+            prevStockPrice_noimpact = newStockPrice_noimpact
+            a_df_temp = a_df_temp.append({'Company':row['Company'],'Country':row['Country'],'Ticker':row['Ticker'],'Quantity':row['Quantity'], 'CreatedDate':nextMonthDate,'Stock_Price':newStockPrice,'Invested_Value':row['Quantity'] * newStockPrice,'Stock_Price_NoImpact':newStockPrice_noimpact,'Invested_Value_NoImpact':row['Quantity'] * newStockPrice_noimpact}, ignore_index=True)
             print(prevStockPrice)
             app.logger.info('update the new stock value and continue the loop')
             previousMonthDate = nextMonthDate
     print(a_df_temp)
     a_df_temp = a_df_temp.append(portfolio)
+    a_df_temp['Stock_Price_NoImpact'] = a_df_temp.apply(lambda x: x['Stock_Price'] if math.isnan(x['Stock_Price_NoImpact']) else x['Stock_Price_NoImpact'], axis=1)
+    a_df_temp['Invested_Value_NoImpact'] = a_df_temp.apply(lambda x: x['Invested_Value'] if math.isnan(x['Invested_Value_NoImpact']) else x['Invested_Value_NoImpact'], axis=1)
     a_df_temp.to_csv(output_file)
     return 'Model ran successfully!!'
 
