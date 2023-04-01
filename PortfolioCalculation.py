@@ -161,9 +161,9 @@ def add_climate_data_to_portfolio():
 #add_climate_data_to_portfolio()
 
 def build_benchmark():
-    #22987228.74
+    #461299583.7
     #60.625
-    benchmark_qty = math.floor(22987228.74 / 60.625)
+    benchmark_qty = math.floor(461299583.7 / 60.625)
     dates = pd.read_csv("data\\Dates.csv")
     benchmark = pd.DataFrame()
     for index, date_ in dates.iterrows():
@@ -172,9 +172,9 @@ def build_benchmark():
             stock_price = data.iloc[0][1]      
             benchmark = benchmark.append({'Ticker':'SUSA','Stock_Price': stock_price,'Invested_Value:': stock_price * benchmark_qty,'CreatedDate': date_['CreatedDate']}, ignore_index=True)
     
-    #benchmark.to_csv("data\\benchmark.csv") 
+    benchmark.to_csv("data\\benchmark_portfolio_sample_3.csv") 
 
-#build_benchmark()
+build_benchmark()
 
 def test_portfolio():
     portfolio = pd.read_csv('data\\portfolio_sample_1.csv')
@@ -241,6 +241,6 @@ def add_to_portfolio(name,ticker):
 #build_portfolio()
 #add_climate_data_to_portfolio()
 #add_country_data_to_portfolio()
-delete_portfolio('portfolio_sample_delete_test','BDL')
-msg = add_to_portfolio('portfolio_sample_delete_test','BDL')
-print(msg)
+#delete_portfolio('portfolio_sample_delete_test','BDL')
+#msg = add_to_portfolio('portfolio_sample_delete_test','BDL')
+#print(msg)
