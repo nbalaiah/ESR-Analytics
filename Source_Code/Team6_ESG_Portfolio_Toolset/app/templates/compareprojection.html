@@ -60,8 +60,8 @@
                       Portfolio
                     </button>
                     <div class="dropdown-menu">
-                      {% for portfolio in portfolio_list %}
-                      <a class="dropdown-item" href="#">{{ portfolio.Name }}</a>
+                      {% for portfolio in portfolio_list.portfolios %}
+                      <a class="dropdown-item" href="#">{{ portfolio }}</a>
                       {% endfor %}
                     </div>
                   </div>
@@ -79,8 +79,8 @@
                             Portfolio
                         </button>
                         <div class="dropdown-menu">
-                          {% for portfolio in portfolio_list %}
-                          <a class="dropdown-item" href="#">{{ portfolio.Name }}</a>
+                          {% for portfolio in portfolio_list.portfolios %}
+                          <a class="dropdown-item" href="#">{{ portfolio }}</a>
                           {% endfor %}
                         </div>
                       </div>
