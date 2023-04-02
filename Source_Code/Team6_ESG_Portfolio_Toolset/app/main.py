@@ -41,6 +41,11 @@ configur = ConfigParser()
 print(configur.read(os.path.join(basedir, 'config.ini')))
 apiurl = configur.get('API','baseurl')
 
+@app.template_filter()
+def currencyFormat(value):
+    value = float(value)
+    return "${:,.2f}".format(value)
+
 @app.route('/')
 def show():
    app.logger.info('this is the root folder')

@@ -3,6 +3,7 @@
     <head>
         <title> ESG Portfolio Toolkit </title>  
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">            
+        <link rel="stylesheet" href="/static/style.css"  >
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.css">
   </head>
   
@@ -43,6 +44,11 @@
                           </li>                            
                     </div>
                 </div>
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <span class="navbar-brand">Team 6</span>
+                      </li>
+              </ul>
             </div>
         </nav>
     </div>
@@ -62,8 +68,8 @@
           <tbody>
             {% for tick in data_portfolio %}
               <tr>
-                <td>{{ tick.Invested_Value }}</td>
-                <td>{{ tick.Current_Value }}</td>
+                <td class="money">{{ tick.Invested_Value | currencyFormat }}</td>
+                <td class="money">{{ tick.Current_Value | currencyFormat }}</td>
               </tr>
             {% endfor %}
           </tbody>
@@ -76,17 +82,15 @@
                       <th>Invested Value</th>
                       <th>Current Value</th>
                       <th>Climate Impact</th>
-                      <th>ESG Score</th>
                     </tr>
                   </thead>
                   <tbody>
                     {% for tick in portfolio_data %}
                       <tr>
                         <td>{{ tick.Ticker }}</td>
-                        <td>{{ tick.Invested_Value }}</td>
-                        <td>{{ tick.Current_Value }}</td>
+                        <td class="money">{{ tick.Invested_Value | currencyFormat }}</td>
+                        <td class="money">{{ tick.Current_Value | currencyFormat }}</td>
                         <td>{{ tick.Climate }}</td>
-                        <td>{{ tick.ESGScore }}</td>
                       </tr>
                     {% endfor %}
                   </tbody>
@@ -104,8 +108,8 @@
               <tbody>
                 {% for tick in benchmark_data %}
                   <tr>
-                    <td>{{ tick.Invested_Value }}</td>
-                    <td>{{ tick.Current_Value }}</td>
+                    <td class="money">{{ tick.Invested_Value | currencyFormat }}</td>
+                    <td class="money">{{ tick.Current_Value | currencyFormat }}</td>
                   </tr>
                 {% endfor %}
               </tbody>
@@ -123,9 +127,23 @@
         {% block scripts %}
   <script>
     $(document).ready(function () {
-      $('#data1').DataTable();
-      $('#data2').DataTable();
-      $('#data3').DataTable();
+      $('#data1').DataTable({
+        "language": {
+    "thousands": ","
+  }
+      });
+      $('#data2').DataTable(
+        {
+        "language": {
+    "thousands": ","
+  }
+      }
+      );
+      $('#data3').DataTable({
+        "language": {
+    "thousands": ","
+  }
+      });
       $('.navbarDropdownMenuLinkModel').dropdown();
       $('.navbarDropdownMenuLinkPortfolio').dropdown();
     });

@@ -48,6 +48,11 @@
                               </li>                             
                         </div>
                     </div>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li>
+                          <span class="navbar-brand">Team 6</span>
+                          </li>
+                  </ul>
                 </div>
             </nav>
         </div>
@@ -55,6 +60,22 @@
         <div class="container">
             
 <form action="{{ url_for("gfg")}}" method="post">
+  <div class="modal-body row">
+    <div class="col-md-4">
+      <label for="model">Select Model:</label>
+    </div>
+    <div class="col-md-4">
+  <div class="dropdown">
+      <input type="hidden" id="counter_id" class="hidden_" name="counter_id" value="">
+      <button class="btn btn-secondary dropdown-toggle" id="model" name="model" type="submit" data-toggle="dropdown" aria-expanded="false">
+        Model
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Extreme temperature impact and correlation of climate changes model</a>
+      </div>
+    </div>
+    </div>
+  </div>
     <div class="modal-body row">
       <div class="col-md-4">
         <label for="portfolio">Select Portfolio:</label>
